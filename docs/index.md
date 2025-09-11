@@ -6,7 +6,7 @@
 # AddressBook Level-3
 
 [![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
-[![codecov](https://codecov.io/github/AY2526S1-CS2103T-F13-4/tp/graph/badge.svg)](github/AY2526S1-CS2103T-F13-4/tp)
+[![codecov](https://codecov.io/github/AY2526S1-CS2103T-F13-4/tp/graph/badge.svg)](https://codecov.io/github/AY2526S1-CS2103T-F13-4/tp)
 
 ![Ui](images/Ui.png)
 
