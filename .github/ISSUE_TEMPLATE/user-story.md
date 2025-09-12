@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-# _replace with expected functionality_
+**_replace with short feature name_**
 
 **User Story**: _replace with full user story_
 
