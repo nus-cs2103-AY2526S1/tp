@@ -74,6 +74,7 @@ public class LogsCenter {
                 .forEach(logger::removeHandler);
     }
 
+    // TODO: Change ab3 to new name ClubHub
     /**
      * Creates a logger named 'ab3', containing a {@code ConsoleHandler} and a {@code FileHandler}.
      * Sets it as the {@code baseLogger}, to be used as the parent logger of all other loggers.
