@@ -23,7 +23,7 @@ import seedu.address.commons.core.LogsCenter;
  */
 public class Main {
     private static Logger logger = LogsCenter.getLogger(Main.class);
-
+    // small change to make PR (DELETE LATER)
     public static void main(String[] args) {
 
         // As per https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-16.md
