@@ -1,9 +1,9 @@
-[![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+[![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions) [![codecov](https://codecov.io/gh/AY2526S1-CS2103T-W14-2/tp/graph/badge.svg?token=EgoUCaXgsh)](https://codecov.io/gh/AY2526S1-CS2103T-W14-2/tp)
 
 ![Ui](docs/images/Ui.png)
 
 * This is **a sample project for Software Engineering (SE) students**.<br>
-  Example usages:
+  Example usages:   
   * as a starting point of a course project (as opposed to writing everything from scratch)
   * as a case study
 * The project simulates an ongoing software project for a desktop application (called _AddressBook_) used for managing contact details.
