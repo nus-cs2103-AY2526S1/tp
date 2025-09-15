@@ -1,4 +1,9 @@
 [![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+[![codecov](https://codecov.io/gh/AY2526S1-CS2103-F13-3/tp/graph/badge.svg?token=533YS6DJVH)](https://codecov.io/gh/AY2526S1-CS2103-F13-3/tp)
+
+# CustomerRelationBook
+
+> Provides a structured system to store and categorize business contacts, saving time and improving efficiency in client communication and vendor coordination.
 
 ![Ui](docs/images/Ui.png)
 
