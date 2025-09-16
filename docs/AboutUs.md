@@ -9,7 +9,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### An Xiao
 
 <img src="images/johndoe.png" width="200px">
 
@@ -19,8 +19,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Project Advisor
 
-### Jane Doe
-
+### Hao Rui
 <img src="images/johndoe.png" width="200px">
 
 [[github](http://github.com/johndoe)]
@@ -29,7 +28,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Team Lead
 * Responsibilities: UI
 
-### Johnny Doe
+### Renzo
 
 <img src="images/johndoe.png" width="200px">
 
@@ -38,7 +37,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Doe
+### Vince
 
 <img src="images/johndoe.png" width="200px">
 
@@ -48,7 +47,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Zhang Yifei
 
 <img src="images/johndoe.png" width="200px">
 
