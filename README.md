@@ -2,7 +2,9 @@
 
 ![Ui](docs/images/Ui.png)
 
-* This is **a sample project for Software Engineering (SE) students**.<br>
+# CalcConnect
+This is the team project repo for CalcConnect, a CS2103T 2526S1 Team Project.<br>
+Everything below has not been updated.<br><br>
   Example usages:
   * as a starting point of a course project (as opposed to writing everything from scratch)
   * as a case study
