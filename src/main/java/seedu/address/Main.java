@@ -5,7 +5,6 @@ import java.util.logging.Logger;
 import javafx.application.Application;
 import seedu.address.commons.core.LogsCenter;
 
-// Test random comment
 
 /**
  * The main entry point to the application.
