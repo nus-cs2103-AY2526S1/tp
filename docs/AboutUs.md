@@ -25,17 +25,16 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/Meckss]
 [[portfolio](team/max.md)]
 
-* Role: Team Lead
+* Role: Developer
 * Responsibilities: UI
 
-### Johnny Doe
+### Javier Lua
 
-<img src="images/johndoe.png" width="200px">
+![javier-lua.png](images/javier-lua.png)
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
+[[github](https://github.com/javier-lua)]
+[[portfolio](team/javier.md)]
+* Role: Project Advisor
 
 ### Jean Doe
 
