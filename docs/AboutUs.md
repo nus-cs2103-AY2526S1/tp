@@ -9,6 +9,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
+=======
 ### Poh Kai Siang Hanson
 
 <img src="images/hansonpoh.png.jpg" width="200px">
@@ -36,12 +37,12 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/javier.md)]
 * Role: Project Advisor
 
-### Jean Doe
+### Serene 
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/serenelwt.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/serenelwt)]
+[[portfolio](team/serenelwt.md)]
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
