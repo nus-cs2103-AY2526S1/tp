@@ -14,7 +14,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 <img src="images/hansonpoh.png.jpg" width="200px">
 
 [[github](https://github.com/hansonpoh)]
-[[portfolio](team/johndoe.md)]
+[[portfolio](team/hansonpoh.md)]
 
 * Role: Team Lead
 
