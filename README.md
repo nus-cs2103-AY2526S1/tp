@@ -1,4 +1,5 @@
 [![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+[![codecov](https://codecov.io/gh/AY2526S1-CS2103T-F08a-1/tp/graph/badge.svg?token=PWQSXFQV4C)](https://codecov.io/gh/AY2526S1-CS2103T-F08a-1/tp)
 
 ![Ui](docs/images/Ui.png)
 
@@ -13,4 +14,4 @@
 * For the detailed documentation of this project, see the **[Address Book Product Website](https://se-education.org/addressbook-level3)**.
 * This project is a **part of the se-education.org** initiative. If you would like to contribute code to this project, see [se-education.org](https://se-education.org/#contributing-to-se-edu) for more info.
 
-[![codecov](https://codecov.io/gh/AY2526S1-CS2103T-F08a-1/tp/graph/badge.svg?token=PWQSXFQV4C)](https://codecov.io/gh/AY2526S1-CS2103T-F08a-1/tp)
+
