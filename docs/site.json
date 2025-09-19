@@ -22,6 +22,49 @@
       "glob": ["**/index.md", "**/*.md"]
     }
   ],
+  "siteNav": [
+    {
+      "title": "User Guide",
+      "url": "UserGuide.html"
+    },
+    {
+      "title": "Developer Guide", 
+      "url": "DeveloperGuide.html"
+    },
+    {
+      "title": "About Us",
+      "url": "AboutUs.html"
+    },
+    {
+      "title": "Tutorials",
+      "subMenu": [
+        {
+          "title": "Setting up",
+          "url": "SettingUp.html"
+        },
+        {
+          "title": "Testing",
+          "url": "Testing.html"
+        },
+        {
+          "title": "Logging",
+          "url": "Logging.html"
+        },
+        {
+          "title": "Configuration",
+          "url": "Configuration.html"
+        },
+        {
+          "title": "DevOps",
+          "url": "DevOps.html"
+        },
+        {
+          "title": "Documentation",
+          "url": "Documentation.html"
+        }
+      ]
+    }
+  ],
   "deploy": {
     "message": "Site Update."
   },
