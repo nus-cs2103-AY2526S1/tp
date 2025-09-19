@@ -1,7 +1,7 @@
 # AY2526S1-CS2103-F13-2
 
 ## CI Status
-[![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+[![CI Status](https://github.com/AY2526S1-CS2103-F13-2/tp/workflows/Java%20CI/badge.svg)](https://github.com/AY2526S1-CS2103-F13-2/tp/actions)
 
 ## UI
 ![Ui](docs/images/Ui.png)
