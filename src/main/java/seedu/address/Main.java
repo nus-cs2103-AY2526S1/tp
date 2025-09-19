@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 import javafx.application.Application;
 import seedu.address.commons.core.LogsCenter;
 
+// testing
 /**
  * The main entry point to the application.
  *
@@ -39,4 +40,3 @@ public class Main {
         Application.launch(MainApp.class, args);
     }
 }
-// testing
