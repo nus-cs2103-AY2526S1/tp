@@ -69,4 +69,8 @@ shadowJar {
     archiveFileName = 'addressbook.jar'
 }
 
+application {
+    mainClass.set("seedu/address/Main")
+}
+
 defaultTasks 'clean', 'test'
