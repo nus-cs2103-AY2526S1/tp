@@ -9,7 +9,6 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-=======
 ### Poh Kai Siang Hanson
 
 <img src="images/hansonpoh.png.jpg" width="200px">
@@ -47,12 +46,9 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Lee Junwon
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/nownuj.png.jpg" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: UI
+[[github](https://github.com/NownuJ)]
+[[portfolio](team/nownuj.md)]
