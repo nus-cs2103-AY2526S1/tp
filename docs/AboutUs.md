@@ -9,6 +9,25 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
+### Poh Kai Siang Hanson
+
+<img src="images/hansonpoh.png.jpg" width="200px">
+
+[[github](https://github.com/hansonpoh)]
+[[portfolio](team/hansonpoh.md)]
+
+* Role: Team Lead
+
+### Max
+
+<img src="images/meckss.png" width="200px">
+
+[[github](https://github.com/Meckss]
+[[portfolio](team/max.md)]
+
+* Role: Developer
+* Responsibilities: UI
+
 ### Javier Lua
 
 ![javier-lua.png](images/javier-lua.png)
@@ -16,25 +35,6 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/javier-lua)]
 [[portfolio](team/javier.md)]
 * Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
 
 ### Jean Doe
 
