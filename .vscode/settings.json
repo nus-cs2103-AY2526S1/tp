@@ -1,0 +1,54 @@
+{
+    // -----------------------
+    // GENERAL EDITOR SETTINGS
+    // -----------------------
+    // Use spaces instead of tabs
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    // Trim trailing whitespace
+    "files.trimTrailingWhitespace": true,
+    // Ensure newline at end of file
+    "files.insertFinalNewline": true,
+    // Max line length indicator (does not enforce, but shows a ruler)
+    "editor.rulers": [
+        120
+    ],
+    // Format on save
+    "editor.formatOnSave": true,
+    // -----------------------
+    // JAVA-SPECIFIC SETTINGS
+    // -----------------------
+    // Use Eclipse formatter profile
+    "java.format.settings.url": "./eclipse-formatter.xml",
+    "java.format.settings.profile": "CustomCheckstyleBased",
+    // Organize imports automatically
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "org",
+        "com"
+    ],
+    // Never use wildcard imports
+    "java.codeGeneration.useBlocks": true,
+    "java.codeGeneration.generateComments": false,
+    "java.codeGeneration.importOrder": [
+        "java",
+        "javax",
+        "org",
+        "com"
+    ],
+    "java.codeGeneration.toString.codeStyle": "STRING_CONCATENATION",
+    "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+    // Remove unused imports on save
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+    },
+    // -----------------------
+    // OPTIONAL ENHANCEMENTS
+    // -----------------------
+    // Enforce consistent line endings (LF is preferred)
+    "files.eol": "\n",
+    // Show whitespace (helps catch double spaces)
+    "editor.renderWhitespace": "boundary",
+}
