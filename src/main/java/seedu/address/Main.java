@@ -6,6 +6,7 @@ import javafx.application.Application;
 import seedu.address.commons.core.LogsCenter;
 
 /**
+ * AY2526S1-CS2103T-F09-3 TP
  * The main entry point to the application.
  *
  * This is a workaround for the following error when MainApp is made the
