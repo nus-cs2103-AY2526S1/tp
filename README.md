@@ -1,4 +1,6 @@
 [![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+# LinkUp
+## AY2526S1-CS2103-F13-2
 
 ![Ui](docs/images/Ui.png)
 
