@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 5
+    },
+    "auditLog": "_markbind\\logs\\.4a27e4dd4d52b0b210ca13b42ac22c488093fce8-audit.json",
+    "files": [
+        {
+            "date": 1758363399154,
+            "name": "_markbind\\logs\\markbind-2025-09-20.log",
+            "hash": "14e2de9b1e760d76b2e4df65f58921a2"
+        }
+    ]
+}
