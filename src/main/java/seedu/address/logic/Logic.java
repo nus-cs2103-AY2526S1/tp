@@ -13,6 +13,7 @@ import seedu.address.model.person.Person;
 /**
  * API of the Logic component
  */
+
 public interface Logic {
     /**
      * Executes the command and returns the result.
