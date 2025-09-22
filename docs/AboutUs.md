@@ -19,11 +19,11 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Project Advisor
 
-### Jane Doe
+### Trinh Hoang Hai
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/hai0506.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/hai0506)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Team Lead
