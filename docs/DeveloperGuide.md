@@ -260,31 +260,43 @@ _{Explain here how the data archiving feature will be implemented}_
 
 ### Product scope
 
-**Target user profile**:
+*Target user profile*:
 
 * has a need to manage a significant number of contacts
-* prefer desktop apps over other types
+* contacts are from many different time zones and communication platforms
+* contacts are also both long and short term
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+*Value proposition*: manage contacts faster than a typical mouse/GUI driven app, in an organised way.
 
 
 ### User stories
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
-
-*{More to be added}*
+| Priority | As a …​        | I want to …​                                       | So that I can…​                                         |
+|----------|----------------|----------------------------------------------------|---------------------------------------------------------|
+| * * *    | user           | add new contacts with their relevant information   | check and contact relevant personnel when necessary.    |
+| * * *    | user           | delete a person                                    | remove contacts that I no longer need.                  |
+| * * *    | user           | save and read contacts on shutdown/startup         | maintain contact information across instances of usage. |
+| * * *    | busy user      | search contacts by company                         | sift through contacts easily.                           |
+| * *      | user           | set reminders on clients                           | stay alert on upcoming meetings.                        |
+| * *      | user           | check client's local time zone                     | contact them at appropriate times.                      |
+| * *      | user           | edit my contacts                                   | update client information easily.                       |
+| * *      | user           | attach tags to clients                             | recall connections to the client.                       |
+| * *      | user           | get alerts for clashing meetings                   | prevent double booking.                                 |
+| * *      | user           | search contacts by country                         | contact groups of people under the filter               |
+| * *      | user           | search contacts by tag                             | contact groups of people under the filter.              |
+| * *      | user           | search contacts by name                            | contact groups of people under the filter.              |
+| * *      | user           | Search contacts by projects they are working on    | contact groups of people under the filter.              |
+| *        | user           | import contacts from other communication platforms | add contacts easily.                                    |
+| *        | user           | check the last date of interaction with clients    | set up meetings for possible future opportunities.      |
+| *        | user           | set multiple tags on one contact                   | maintain overlapping projects without confusion.        |
+| *        | user           | merge duplicate contacts                           | maintain accurate contacts.                             |
+| *        | impatient user | see my frequently contacted users                  | save time.                                              |
+| *        | user           | auto-convert meeting times into my timezone        | prevent making scheduling mistakes.                     |
 
 ### Use cases
 
