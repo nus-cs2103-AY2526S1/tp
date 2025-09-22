@@ -9,7 +9,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### Nguyen The Bach No Hi
+### Nguyen The Bach
 
 <img src="images/djgmh9.png" width="200px">
 
