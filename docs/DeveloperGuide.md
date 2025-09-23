@@ -256,77 +256,119 @@ _{Explain here how the data archiving feature will be implemented}_
 
 --------------------------------------------------------------------------------------------------------------------
 
-## **Appendix: Requirements**
+## Appendix: Requirements
 
 ### Product scope
 
-**Target user profile**:
+**Target user profile**  
+- HR professionals organizing and maintaining employee directories.  
+- Includes HR assistants, coordinators, and managers working in organizations of varying sizes.  
+- May be new to HR technology or transitioning from manual spreadsheets to digital solutions.  
 
-* has a need to manage a significant number of contacts
-* prefer desktop apps over other types
-* can type fast
-* prefers typing to mouse interactions
-* is reasonably comfortable using CLI apps
+**Value proposition**  
+Slackbook empowers HR professionals to streamline employee directory management by centralizing contact information in one intuitive space.  
+It minimizes time wasted searching across platforms, ensures accurate records, and supports smoother communication and collaboration within organizations.  
+Ultimately, Slackbook enables HR teams to focus more on people and less on administrative overhead.
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+---
 
-
-### User stories
+### User stories (MVP version)
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
+| Priority | As a …​                     | I want to …​                                                            | So that I can…​                                            |
+|----------|-----------------------------|-------------------------------------------------------------------------|------------------------------------------------------------|
+| `* * *`  | HR professional             | quickly add employee details in one place                               | ensure the directory always reflects the latest information|
+| `* * *`  | HR professional             | update existing employee details                                        | keep records accurate and current                          |
+| `* * *`  | Senior HR manager           | categorize employees by department, team, or role                       | easily locate and manage groups within the organization    |
+| `* * *`  | New HR assistant            | see missing or outdated information flagged automatically               | fix gaps quickly and maintain data integrity               |
+| `* * *`  | Remote HR coordinator       | search and filter employees by name, department, or skill               | quickly find the right person when needed                  |
+| `* *`    | HR professional             | export filtered employee lists                                          | share data with managers or other departments              |
+| `*`      | HR staff with many employees| generate department-level summaries                                     | review staffing needs more efficiently                     |
 
-*{More to be added}*
+---
+
+### User Scenarios
+
+**A. First Use (new and curious HR professional)**  
+Jean, a first-time HR professional, hears about Slackbook as a faster way to manage employee directories. She installs Slackbook, explores search and categorization, and adds her first employee profile. She realizes Slackbook could replace her manual spreadsheets.
+
+**B. Second Use (beginner with a real HR need)**  
+Jean logs in when asked for an employee’s phone number. She searches by department, notices a flagged missing job title, and updates it. She also messages an employee directly from Slackbook. She realizes Slackbook saves her time compared to email or Excel.
+
+**C. 10th Use (gaining confidence)**  
+Jean has now added dozens of profiles. She filters by department to export a list for the Marketing Director, updates outdated info, and starts recommending Slackbook to colleagues as the single source of truth.
+
+**D. 100th Use (expert HR professional)**  
+Jean launches Slackbook automatically each day. She reviews flagged errors, filters by skills to staff projects, and deletes old contractor profiles. Slackbook is now deeply embedded in her HR routine.
+
+---
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+**Use case: UC01 – Add a new employee**  
+**Actor:** HR professional  
+**Preconditions:** Slackbook is running, HR professional is logged in  
 
-**Use case: Delete a person**
+**MSS (Main Success Scenario):**  
+1. HR professional enters new employee details (name, email, role, department, phone).  
+2. System validates input.  
+3. System saves employee record.  
+4. Employee appears in the directory.  
 
-**MSS**
+**Extensions:**  
+- 2a. Input invalid → System shows error message.  
+- 3a. Duplicate employee (same name + email) → System rejects entry.  
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+---
 
-    Use case ends.
+**Use case: UC02 – Search employee by skill**  
+**Actor:** HR professional  
 
-**Extensions**
+**MSS:**  
+1. HR professional enters a search query with a skill (e.g., “Python”).  
+2. System searches employee records.  
+3. System displays a filtered list of employees with that skill.  
 
-* 2a. The list is empty.
+**Extensions:**  
+- 1a. No results → System displays “No results found.”  
 
-  Use case ends.
+---
 
-* 3a. The given index is invalid.
+**Use case: UC03 – Update employee details**  
+**Actor:** HR professional  
 
-    * 3a1. AddressBook shows an error message.
+**MSS:**  
+1. HR professional selects an employee by ID.  
+2. HR professional edits one or more fields (e.g., role, department, phone).  
+3. System validates and saves the updated record.  
+4. System displays confirmation message.  
 
-      Use case resumes at step 2.
+**Extensions:**  
+- 1a. Employee ID not found → System shows error.  
+- 2a. No fields provided → System shows error.  
+- 3a. Email already exists in another record → System rejects update.  
 
-*{More to be added}*
+---
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+1. The system should support up to 1000 employees without noticeable performance degradation.  
+2. Input validation must enforce correct formats (e.g., email, phone).  
+3. Operations (add, update, search) should return results within 2 seconds.  
+4. The system should run on Windows, macOS, and Linux (Constraint-Portable).  
+5. The system should be easy to use for non-technical HR staff (Constraint-Usability).  
+6. The system should highlight missing or outdated data automatically (Constraint-DataQuality).  
 
-*{More to be added}*
+---
 
 ### Glossary
 
-* **Mainstream OS**: Windows, Linux, Unix, MacOS
-* **Private contact detail**: A contact detail that is not meant to be shared with others
+- **Employee Record**: A set of details (name, role, department, contact info, skills) about an employee.  
+- **HR Manager/Professional**: User responsible for maintaining employee information.  
+- **Skills**: Specific competencies associated with an employee (e.g., Python, Java).  
+- **Category**: A label grouping employees (e.g., Department, Team, Role).  
+- **Slack Integration**: Ability to connect Slackbook with Slack for quick communication.  
 
 --------------------------------------------------------------------------------------------------------------------
 

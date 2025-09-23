@@ -5,55 +5,44 @@ title: About Us
 
 We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
 
-You can reach us at the email `seer[at]comp.nus.edu.sg`
-
 ## Project team
 
-### John Doe
+### Xavier Chin
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/xavychin.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/xavychin)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Team Lead
-* Responsibilities: UI
+* Responsibilities: Scheduling and tracking
 
-### Johnny Doe
+### Xin Yi 
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/xinyi-lim-19.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/xinyi-lim-19)]
+[[portfolio](team/xinyi-lim-19.md)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibility: Code quality
 
-### James Doe
+### Jordan Low
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/jordanlow.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[homepage (NA)]
+[[github](https://github.com/jordanlow)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Coding
+
+### Quek Yew Wei
+
+<img src="images/siderealmaple.png" width="200px">
+
+[[github](http://github.com/siderealmaple)]
+[[portfolio](team/siderealmaple.md)]
+
+* Role: Developer
+* Responsibilities: Deliverables and deadlines
