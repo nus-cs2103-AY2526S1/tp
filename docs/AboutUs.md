@@ -36,7 +36,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 <img src="images/zisaac99.png" width="200px">
 
-[[github](https://github.com/Zisaac99)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/Zisaac99)] [[portfolio](team/zisaac99.md)]
 
 * Role: Developer
 * Responsibilities: Integration
