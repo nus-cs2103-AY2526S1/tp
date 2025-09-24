@@ -11,34 +11,35 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Chan Jin Kai
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/moomooyonders.png" width="200px">
 
 [[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
+[[github](https://github.com/MooMooYonders)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Project Advisor
+* Responsibilities: Project oversight and guidance
 
-### Jane Doe
+### Justin Ng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/jvvvstin.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/jvvvstin)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Team Lead
 * Responsibilities: UI
 
-### Johnny Doe
+### Lum Jing Xiang Isaac
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/zisaac99.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/Zisaac99)] [[portfolio](team/johndoe.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: Integration
 
 ### Soh Wei Jie Nicholas
 
@@ -49,13 +50,3 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: Data
-
-### James Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: UI
