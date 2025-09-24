@@ -53,3 +53,84 @@ If you plan to use Intellij IDEA (highly recommended):
    * [Tracing code](https://se-education.org/guides/tutorials/ab3TracingCode.html)
    * [Adding a new command](https://se-education.org/guides/tutorials/ab3AddRemark.html)
    * [Removing fields](https://se-education.org/guides/tutorials/ab3RemovingFields.html)
+
+--------------------------------------------------------------------------------------------------------------------
+
+## Setting up the Jekyll documentation website
+
+If you want to work on the project documentation website (this website), you'll need to set up Jekyll locally.
+
+### Prerequisites
+
+Before setting up Jekyll, ensure you have Ruby installed on your system:
+
+```bash
+ruby --version
+```
+
+If Ruby is not installed, install it using your system's package manager.
+
+### Installation Steps
+
+1. **Install Ruby development headers and build tools** (required for compiling native gems):
+
+   **On Ubuntu/Debian:**
+   ```bash
+   sudo apt update
+   sudo apt install ruby-dev build-essential
+   ```
+
+   **On macOS:**
+   ```bash
+   # If using Homebrew
+   brew install ruby
+   # Development tools should already be available via Xcode Command Line Tools
+   ```
+
+   **On Windows:**
+   Install Ruby through [RubyInstaller](https://rubyinstaller.org/) with the DevKit.
+
+2. **Navigate to the docs directory:**
+   ```bash
+   cd docs
+   ```
+
+3. **Install Bundler** (if not already installed):
+   ```bash
+   gem install bundler
+   ```
+
+4. **Install Jekyll and dependencies:**
+   ```bash
+   bundle install
+   ```
+
+   <div markdown="span" class="alert alert-info">:information_source: **Note:**
+   
+   If you encounter permission errors, you can install gems locally instead of system-wide:
+   ```bash
+   bundle install --path vendor/bundle
+   ```
+   </div>
+
+### Running the Jekyll Site Locally
+
+1. **Start the Jekyll server:**
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+2. **Access the website:**
+   Open your web browser and navigate to `http://localhost:4000` or `http://127.0.0.1:4000`
+
+3. **Live reloading:**
+   The Jekyll server will automatically reload when you make changes to the documentation files.
+
+### Troubleshooting
+
+**Error: `mkmf.rb can't find header files for ruby`**
+- This means you need to install Ruby development headers. Follow step 1 in the installation instructions above.
+
+**Error: `Permission denied` when installing gems**
+- Use `bundle install --path vendor/bundle` to install gems locally instead of system-wide.
+- Alternatively, use a Ruby version manager like `rbenv` or `rvm` to manage Ruby installations in your user directory.
