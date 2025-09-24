@@ -26,8 +26,8 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 <img src="images/jvvvstin.png" width="200px">
 
-[[github](http://github.com/jvvvstin)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/jvvvstin)]
+[[portfolio](team/jvvvstin.md)]
 
 * Role: Team Lead
 * Responsibilities: UI
