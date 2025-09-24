@@ -1,7 +1,7 @@
 {
   "baseUrl": "",
   "titlePrefix": "FAContactsPRO",
-  "titleSuffix": "AddressBook Level-3",
+  "titleSuffix": "FAContactsPRO",
   "faviconPath": "images/SeEduLogo.png",
   "style": {
     "codeTheme": "light"
@@ -20,6 +20,18 @@
   "pages": [
     {
       "glob": ["**/index.md", "**/*.md"]
+    },
+    {
+      "src": "UserGuide.md",
+      "title": "User Guide"
+    },
+    {
+      "src": "DeveloperGuide.md",
+      "title": "Developer Guide"
+    },
+    {
+      "src": "AboutUs.md",
+      "title": "Developer Guide"
     }
   ],
   "deploy": {
