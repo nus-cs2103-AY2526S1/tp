@@ -9,15 +9,16 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Eugene Oh
 
 <img src="images/eugeneoyz1203n.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/EugeneOYZ1203n)]
 
-* Role: Project Advisor
+I have added my own details here. There is no need to mention the tutor and lecturer but it is OK to do so but I have not done so.
+
+* Role: Team Lead
+* Responsibilities: Project management and architecture
 
 ### Jane Doe
 
