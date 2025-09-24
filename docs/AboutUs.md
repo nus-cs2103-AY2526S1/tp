@@ -5,55 +5,47 @@ title: About Us
 
 We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
 
-You can reach us at the email `seer[at]comp.nus.edu.sg`
+You can reach any one of us at the email:
+* `e1398360[at]u.nus.edu` (Jia Bao)
+* `jessie.chin[at]u.nus.edu` (Jessie)
+* `koei[at]u.nus.edu` (Kieron)
+* `e1406319[at]u.nus.edu` (Lucas)
+* `czh[at]u.nus.edu` (Zach)
 
 ## Project team
 
-### John Doe
+### Yoon Jia Bao
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/jbyoonn.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/JBYoonn)]
+[[portfolio](team/jbyoonn.md)]
 
-* Role: Project Advisor
+* Role: Developer, in charge of UI
 
-### Jane Doe
+### Lucas Ng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/lucasn24.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/lucasn24)]
+[[portfolio](team/lucasn24.md)]
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Kieron Oei
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/kieronoei.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/KieronOei)]
+[[portfolio](team/kieronoei.md)]
+
+### Zach Chong
+
+<img src="images/zachchong.png" width="200px">
+
+[[github](http://github.com/zachchong)]
+[[portfolio](team/zachchong.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: TBC

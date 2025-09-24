@@ -20,7 +20,7 @@ Given below are my contributions to the project.
 * **Code contributed**: [RepoSense link]()
 
 * **Project management**:
-  * Managed releases `v1.3` - `v1.5rc` (3 releases) on GitHub
+  * Learnt how to work on a SWE project with men (very applicable to real world)
 
 * **Enhancements to existing features**:
   * Updated the GUI color scheme (Pull requests [\#33](), [\#34]())
@@ -28,10 +28,7 @@ Given below are my contributions to the project.
 
 * **Documentation**:
   * User Guide:
-    * Added documentation for the features `delete` and `find` [\#72]()
-    * Did cosmetic tweaks to existing documentation of features `clear`, `exit`: [\#74]()
-  * Developer Guide:
-    * Added implementation details of the `delete` feature.
+    * Learning how AI assists me in writing User Guids
 
 * **Community**:
   * PRs reviewed (with non-trivial review comments): [\#12](), [\#32](), [\#19](), [\#42]()
@@ -43,4 +40,5 @@ Given below are my contributions to the project.
   * Integrated a third party library (Natty) to the project ([\#42]())
   * Integrated a new Github plugin (CircleCI) to the team repo
 
-* _{you can add/remove categories in the list above}_
+
+
