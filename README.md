@@ -1,15 +1,26 @@
-[![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+# FAContactsPro
+[![CI Status](https://github.com/AY2526S1-CS2103-F10-1/tp/workflows/Java%20CI/badge.svg)](https://github.com/AY2526S1-CS2103-F10-1/tp/actions)
 [![codecov](https://codecov.io/gh/AY2526S1-CS2103-F10-1/tP/graph/badge.svg?token=23EFUFXTIN)](https://codecov.io/gh/AY2526S1-CS2103-F10-1/tP)
 
-![Ui](docs/images/Ui.png)
+<br>
+<br>
 
-* This is **a sample project for Software Engineering (SE) students**.<br>
+![Ui](docs/images/Ui.png)  
+
+<br>
+<br>
+
+This project is based on the AddressBook-Level3 project created by the [SE-EDU initiative](https://se-education.org).
+* FAContactsPro is an **address book** that is tailored to financial advisors in Singapore. It helps them stay organized by keeping track of their work.<br>
   Example usages:
-  * as a starting point of a course project (as opposed to writing everything from scratch)
-  * as a case study
-* The project simulates an ongoing software project for a desktop application (called _AddressBook_) used for managing contact details.
-  * It is **written in OOP fashion**. It provides a **reasonably well-written** code base **bigger** (around 6 KLoC) than what students usually write in beginner-level SE modules, without being overwhelmingly big.
+  * Add a client/colleague's contact details.
+  * Search for a client/colleague contact.
+  * Edit a client/colleague contact.
+  * Remove a client/colleague contact.
+  * List all contacts stored.
+  * Exit the application.
+* The project is an ongoing software project for a desktop application (called _FAContactsPro_) used for managing clients/colleagues' contact details.
+  * It is **written in OOP fashion**.
   * It comes with a **reasonable level of user and developer documentation**.
-* It is named `AddressBook Level 3` (`AB3` for short) because it was initially created as a part of a series of `AddressBook` projects (`Level 1`, `Level 2`, `Level 3` ...).
-* For the detailed documentation of this project, see the **[Address Book Product Website](https://se-education.org/addressbook-level3)**.
-* This project is a **part of the se-education.org** initiative. If you would like to contribute code to this project, see [se-education.org](https://se-education.org/#contributing-to-se-edu) for more info. 
+* It is named `Financial Advisor Contacts Pro` (`FAContactsPro` for short) because we want it to be a premium address book for financial advisors in Singapore.
+* For the detailed documentation of this project, see the **[FAContactsPro Product Website](https://ay2526s1-cs2103-f10-1.github.io/tp/)**.
