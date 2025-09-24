@@ -29,14 +29,14 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Team Lead
 * Responsibilities: UI
 
-### Johnny Doe
+### Albert Ding Qi Jun
 
 <img src="images/johndoe.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/Albertd13)]
 
-* Role: Developer
-* Responsibilities: Data
+* Role: Data Engineer
+* Responsibilities: Handling/Storage of user details and particulars
 
 ### Jean Doe
 
