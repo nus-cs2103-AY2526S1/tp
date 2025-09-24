@@ -346,11 +346,23 @@ Priorities: High (must have) - `***`, Medium (nice to have / good to have) - `**
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-
-*{More to be added}*
+1. Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
+2. Should be able to hold up to 1000 persons and 100 clubs without a noticeable sluggishness in performance for typical usage.
+3. A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+4. The software should work without requiring an installer.
+5. The GUI should work well (i.e., should not cause any resolution-related inconveniences to the user) for standard screen resolutions 1920x1080 and higher and for screen scales 100% and 125%. In addition, the GUI should be usable (i.e., all functions can be used even if the user experience is not optimal) for resolutions 1280x720 and higher and for screen scales 150%.
+6. Text and other UI elements should not overflow if too long and should still be displayed properly in full, perhaps in a scroll view.
+7. Every command failures should display an appropriate error message.
+8. Error messages should be clear, specific, and give suggestions on how to fix the error.
+9. Loading and saving to file should be fast, user should not see a noticeable freeze.
+10. Loading and saving to file should never crash, even if file is corrupted/invalid.
+11. Application should never corrupt save file.
+12. Data should be saved up to the latest action even if the app is not exited conventionally.
+13. Save file should not be encrypted and should be in a human editable text file.
+14. Command syntax should be consistent and predictable, especially between commands for contacts and commands for clubs.
+15. The application should be optimized to run smoothly on standard hardware.
+16. The application size should be less than 100MB to facilitate easy distribution and storage.
+17. The application does not need to support multi-user operations.
 
 ### Glossary
 
