@@ -39,15 +39,14 @@ I have added my own details here. There is no need to mention the tutor and lect
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Doe
+### Aidan Tan
 
 <img src="images/chrogain.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/chrogain)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibilities: UI
 
 ### James Doe
 
