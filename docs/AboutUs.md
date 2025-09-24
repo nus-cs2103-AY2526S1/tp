@@ -19,15 +19,14 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Project Advisor
 
-### Jane Doe
+### Rohit Unnithan
 
 <img src="images/johndoe.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/ruissouw)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Backend Developer
+* Responsibilities: Create API Routes
 
 ### Johnny Doe
 
