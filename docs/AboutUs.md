@@ -48,12 +48,11 @@ I have added my own details here. There is no need to mention the tutor and lect
 * Role: Developer
 * Responsibilities: UI
 
-### James Doe
+### Chen Chi
 
 <img src="images/orange-eat97.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/orange-eat97)]
 
-* Role: Developer
-* Responsibilities: UI
+* Role: Product Manager
+* Responsibilities: Prioritise & specify solution
