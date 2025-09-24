@@ -20,15 +20,14 @@ I have added my own details here. There is no need to mention the tutor and lect
 * Role: Team Lead
 * Responsibilities: Project management and architecture
 
-### Jane Doe
+### Rohit Unnithan
 
 <img src="images/ruissouw.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/ruissouw)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Backend Developer
+* Responsibilities: Create API Routes
 
 ### Johnny Doe
 
