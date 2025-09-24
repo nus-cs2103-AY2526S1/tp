@@ -15,9 +15,8 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 <img src="images/moomooyonders.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
 [[github](https://github.com/MooMooYonders)]
-[[portfolio](team/johndoe.md)]
+[[portfolio](team/moomooyonders.md)]
 
 * Role: Project Advisor
 * Responsibilities: Project oversight and guidance
