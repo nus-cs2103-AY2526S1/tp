@@ -11,7 +11,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### John Doe
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/eugeneoyz1203n.png" width="200px">
 
 [[homepage](http://www.comp.nus.edu.sg/~damithch)]
 [[github](https://github.com/johndoe)]
@@ -31,7 +31,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Albert Ding Qi Jun
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/albertd13.png" width="200px">
 
 [[github](http://github.com/Albertd13)]
 
@@ -40,7 +40,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Jean Doe
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/chrogain.png" width="200px">
 
 [[github](http://github.com/johndoe)]
 [[portfolio](team/johndoe.md)]
@@ -50,7 +50,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### James Doe
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/orange-eat97.png" width="200px">
 
 [[github](http://github.com/johndoe)]
 [[portfolio](team/johndoe.md)]
