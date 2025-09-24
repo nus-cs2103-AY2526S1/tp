@@ -29,14 +29,14 @@ I have added my own details here. There is no need to mention the tutor and lect
 * Role: Backend Developer
 * Responsibilities: Create API Routes
 
-### Johnny Doe
+### Albert Ding Qi Jun
 
 <img src="images/albertd13.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/Albertd13)]
 
-* Role: Developer
-* Responsibilities: Data
+* Role: Data Engineer
+* Responsibilities: Handling/Storage of user details and particulars
 
 ### Aidan Tan
 
