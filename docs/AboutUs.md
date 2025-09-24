@@ -9,51 +9,49 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Eugene Oh
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/eugeneoyz1203n.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/EugeneOYZ1203n)]
 
-* Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+I have added my own details here. There is no need to mention the tutor and lecturer but it is OK to do so but I have not done so.
 
 * Role: Team Lead
-* Responsibilities: UI
+* Responsibilities: Project management and architecture
 
-### Johnny Doe
+### Rohit Unnithan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/ruissouw.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/ruissouw)]
 
-* Role: Developer
-* Responsibilities: Data
+* Role: Backend Developer
+* Responsibilities: Create API Routes
 
-### Jean Doe
+### Albert Ding Qi Jun
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/albertd13.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/Albertd13)]
 
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Role: Data Engineer
+* Responsibilities: Handling/Storage of user details and particulars
 
-### James Doe
+### Aidan Tan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/chrogain.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/chrogain)]
 
 * Role: Developer
 * Responsibilities: UI
+
+### Chen Chi
+
+<img src="images/orange-eat97.png" width="200px">
+
+[[github](http://github.com/orange-eat97)]
+
+* Role: Product Manager
+* Responsibilities: Prioritise & specify solution
