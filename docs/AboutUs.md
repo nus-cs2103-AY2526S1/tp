@@ -38,11 +38,11 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Doe
+### Manish Kharthik
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/manishkharthik.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/manishkharthik)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
