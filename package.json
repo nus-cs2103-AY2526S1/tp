@@ -1,0 +1,31 @@
+{
+  "name": "tp",
+  "version": "1.0.0",
+  "description": "[![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "markbind init",
+    "build": "markbind build",
+    "serve": "markbind serve",
+    "deploy": "markbind deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AY2526S1-CS2103T-W12-2/tp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AY2526S1-CS2103T-W12-2/tp/issues"
+  },
+  "homepage": "https://github.com/AY2526S1-CS2103T-W12-2/tp#readme",
+  "devDependencies": {
+    "markbind-cli": "^6.0.2"
+  }
+}
