@@ -21,15 +21,14 @@ You can reach us at the emails:
 * Responsibilities: Scheduling and Tracking
 * In charge of: Storage
 
-### Jane Doe
+### Pham Hai Minh
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/monnss69.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/monnss69)]
+[[portfolio](team/minh.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Architecture Design
 
 ### Johnny Doe
 
@@ -59,3 +58,4 @@ You can reach us at the emails:
 
 * Role: Developer
 * Responsibilities: UI
+
