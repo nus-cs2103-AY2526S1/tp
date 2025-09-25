@@ -30,14 +30,15 @@ You can reach us at the emails:
 
 * Role: Architecture Design
 
-### Johnny Doe
+### Ivan Ng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/inzk0518.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/inzk0518)] [[portfolio](team/ivanng.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: Code Standard
+* In charge of: Model
 
 ### Jean Doe
 
