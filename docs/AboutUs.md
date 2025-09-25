@@ -47,8 +47,8 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/Bleng-flash)]
 [[portfolio](team/bryanleng.md)]
 
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Role: Documentation + Git expert
+* Responsibilities: 
 
 ### James Doe
 
