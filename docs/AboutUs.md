@@ -9,51 +9,50 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Alroy Loh
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/dumboiroy.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/dumboiroy)]
+[[portfolio](team/dumboiroy.md)]
 
-* Role: Project Advisor
+- Role: Developer
 
-### Jane Doe
+### Kosolpattanadurong Thitiwat
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/catisnotsodium.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/catisnotsodium)]
+[[portfolio](team/catisnotsodium)]
 
-* Role: Team Lead
-* Responsibilities: UI
+- Role: Team Lead
+- Responsibilities: UI
 
-### Johnny Doe
+### Lim Song Lin
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/forestmu.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/forestmu)] [[portfolio](team/forestmu.md)]
 
-* Role: Developer
-* Responsibilities: Data
+- Role: Developer
+- Responsibilities: Data
 
-### Jean Doe
+### Wong Yu Zhen
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/wongyuzhen.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/wongyuzhen)]
+[[portfolio](team/wongyuzhen.md)]
 
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
+- Role: Developer
+- Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Lee Zhao Rui
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/oilyfishball.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/oilyfishball)]
+[[portfolio](team/oilyfishball.md)]
 
-* Role: Developer
-* Responsibilities: UI
+- Role: Developer
+- Responsibilities: UI

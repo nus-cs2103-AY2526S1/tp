@@ -262,42 +262,100 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
-* has a need to manage a significant number of contacts
-* prefer desktop apps over other types
-* can type fast
-* prefers typing to mouse interactions
-* is reasonably comfortable using CLI apps
+* Profession: Social workers in Singapore who handle 20–50 clients at once. 
+* Work habits: Prefer desktop-based tools, comfortable with fast typing and CLI-style interactions, value speed over graphical interfaces. 
+* Needs: Quick access to client information, efficient management of multiple contacts, and reduced administrative burden. 
+* Pain points: High workload, administrative overload, and stress from juggling paperwork, cultural complexities, and deadlines.
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+**Value proposition**: Social workers manage dozens of clients at once. 
+HeartLink provides fast and convenient access to client contact details while helping track workload. 
+By reducing the burden of administrative tasks, remembering check-ins, and organizing deadlines across scattered 
+records, our address book minimizes paperwork stress and allows social workers to focus on 
+supporting the people who need them.
 
 
 ### User stories
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
+| Priority | As a …​                     | I want to …​                                    | So that I can…​                                                       |
+| ----- |-----------------------------|-------------------------------------------------|-----------------------------------------------------------------------|
+| `* * *` | social worker               | add a new client’s information                  | access information of the client when I need it                       |
+| `* * *` | social worker               | view a client’s contact information             | contact them when necessary                                           |
+| `* * *` | social worker               | edit client information                         | keep the information up to date                                       |
+| `* * *` | social worker               | delete a client                                 | clean up my contacts in the address book                              |
+| `* * *` | social worker               | link appointments to each client                | keep track of when my appointments are for each client                |
+| `* *` | new social worker user      | see usage instructions                          | refer to instructions when I forget how to use the app                |
+| `* *` | social worker               | search/find a client by name                    | locate details quickly without scrolling                              |
+| `* *` | social worker               | receive notifications for meetings              | not miss them and stay organized before the meeting                   |
+| `* *` | social worker               | add remarks/notes                               | remember who this client is                                           |
+| `* *` | social worker               | sort my appointments by priority                | find my most urgent appointments easily                               |
+| `* *` | mobile social worker        | group the clients I have to visit               | streamline my workflow                                                |
+| `* *` | social worker               | sort clients by distance                        | plan my route for the day                                             |
+| `* *` | social worker               | add a client’s picture                          | confirm the appearance of the client                                  |
+| `* *` | visual social worker        | see all my appointments on a calendar           | visualize how busy my schedule will be                                |
+| `* *` | social worker               | see all my appointments in a list view          | have a simple overview                                                |
+| `* *` | caring social worker        | pin important contacts                          | focus more on those who need my help                                  |
+| `* *` | clumsy social worker        | search clients without exact spelling           | find clients even if I don’t remember their exact name                |
+| `* *` | social worker               | backup client information                       | recover client information in case of mistakes or accidental deletion |
+| `* *` | busy social worker          | have a system that is easy to use               | not spend too much time figuring it out                               |
+| `*`   | lazy social worker          | delete multiple clients in one shot             | save time instead of deleting one by one                              |
+| `*`   | stressed social worker      | select an option to view important appointments | avoid being overwhelmed by workload, reducing stress                  |
+| `*`   | social worker               | archive a client                                | find contacts again in the future if needed                           |
+| `*`   | impatient social worker     | nuke all contacts                               | vent my anger                                                         |
+| `*`   | impatient social worker     | recover all contacts after nuking               | restore everything if I make a mistake                                |
+| `*`   | sad social worker           | find my therapist fast                          | get some help                                                         |
+| `*`   | social worker who travels   | use the app without internet                    | still use it in places with bad signal                                |
+| `*`   | social worker without phone | use the app for other communication             | still link up with my clients                                         |
+| `*`   | social worker               | have a shortcut to call police                  | seek help when a client abuses me                                     |
+| `*`   | less tech-savvy worker      | have easy access to an application guide        | learn how to use it without frustration                               |
+| `*`   | social worker               | have a system that works reliably               | ensure wrong commands don’t destroy the address book                  |
+
 
 *{More to be added}*
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `HeartLink` and the **Actor** is the `user`, unless specified otherwise)
 
-**Use case: Delete a person**
+**Use case: Add a person**
+
+**MSS**
+
+1.  User requests to add person
+2.  HeartLink adds the person to the list.
+
+    Use case ends.
+
+**Extensions**
+
+* 1a. The given details were incomplete.
+  
+  * 1a1. HeartLink shows error message. 
+
+    Use case ends.
+
+* 1b. The given name/phone number/email already exists.
+
+    * 1b1. HeartLink shows an error message.
+
+      Use case ends.
+  
+* 1c. The given details are of an invalid syntax.
+
+    * 1c1. HeartLink shows an error message.
+
+      Use case ends.
+
+
+**Use case: Edit a person**
 
 **MSS**
 
 1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+2.  HeartLink shows a list of persons
+3.  User requests to edit a specific person in the list
+4.  HeartLink edits the specified details of the person.
 
     Use case ends.
 
@@ -307,27 +365,86 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
   Use case ends.
 
-* 3a. The given index is invalid.
+* 3a. The given name does not exist.
 
-    * 3a1. AddressBook shows an error message.
+    * 3a1. HeartLink shows an error message.
+
+      Use case resumes at step 2.
+  
+* 3b. The updated name/phone number/email already exists.
+
+    * 3b1. HeartLink shows an error message.
+
+      Use case resumes at step 2.
+  
+* 3c. The given details are of invalid syntax.
+
+    * 3c1. HeartLink shows an error message.
 
       Use case resumes at step 2.
 
-*{More to be added}*
+**Use Case: Link Appointment to Client**
+
+**MSS**
+
+1. User requests to view clients.
+2. HeartLink shows a list of clients.
+3. User requests to link an appointment to a specific client with the relevant details.
+4. HeartLink creates the appointment and links it to the chosen client.
+
+Use case ends.
+
+**Extensions**
+
+* 2a. No clients available
+    * 2a1. HeartLink shows an empty list.
+
+        Use case ends.
+
+* 3a. Specified client does not exist
+  * 3a1. HeartLink shows an error message.
+
+    Use case resumes at step 2.
+
+* 3b. Appointment details are invalid (date, time, duration, or status)
+  * 3b1. HeartLink shows an error message.
+
+    Use case resumes at step 2.
+
+* 3c. Appointment conflicts with an existing one
+  * 3c1. HeartLink shows a scheduling conflict message.
+
+    Use case resumes at step 2.
+
+* 3d. Appointment duplicates an existing one
+  * 3d1. HeartLink shows a duplicate appointment error.
+
+    Use case resumes at step 2.
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-
-*{More to be added}*
+1.  **Compatibility** Our system should work on any _mainstream OS_ as long as it has Java `17` or above installed.
+2.  **Performance** Our system should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
+3.  **User Experience** A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+4. **User Experience** The client list view shall display no more than 5–6 clients per screen, with scrolling enabled to access additional entries, to avoid information overloading.
+5. **User Experience** Our system should limit the amount of text displayed to prevent lags and UI issues. It should also gracefully handle text-related issues such as long strings, emoji rendering, and font compatibility.
+6. **Process Requirement** Our project is expected to adhere to a schedule that delivers a feature set every week throughout the second half of the semester. 
+7. **Quality Assurance** All source code shall achieve a minimum of 80% unit test coverage.
 
 ### Glossary
 
 * **Mainstream OS**: Windows, Linux, Unix, MacOS
-* **Private contact detail**: A contact detail that is not meant to be shared with others
-
+* **Appointment**: A scheduled event linked to a client, with details such as date, time, duration, location, type, notes, and status.
+* **Appointment status**: The progress state of an appointment — planned, confirmed, completed, or cancelled.
+* **Ambiguity error**: An error shown when multiple clients match the same name.
+* **Client**: An individual whose information, appointments, and notes are managed in HeartLink.
+* **Conflict detection**: A rule that prevents overlapping appointments for the same client.
+* **Contact information**: Details that allow communication with a client, such as phone number, email, or address.
+* **Duplicate entry**: An error condition where an identical client or appointment already exists.
+* **Orphan appointment**: An appointment that is not linked to any client (not allowed in HeartLink).
+* **Person list**: The collection of all clients currently stored in HeartLink.
+* **Scheduling conflict**: A clash where two appointments for the same client overlap in time.
+* **Validation rule**: A constraint that ensures inputs (e.g., date, phone number, email) are correct before the system accepts them.
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Appendix: Instructions for manual testing**
