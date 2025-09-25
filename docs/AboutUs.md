@@ -55,7 +55,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 <img src="images/ryan-toh.png" width="200px">
 
 [[github](http://github.com/ryan-toh)]
-[[portfolio](team/johndoe.md)]
+[[portfolio](team/ryan-toh.md)]
 
 * Role: Team Lead
 * Responsibilities: UI
