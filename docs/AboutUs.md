@@ -19,11 +19,13 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Project Advisor
 
-### Aayush Bhatia
 
-<img src="images/abhatia2003.png" width="200px">
+### Darren Sim 
 
-[[github](http://github.com/abhatia2003)]
+<img src="images/darrensimmx.png" width="200px">
+
+[[github](http://github.com/darrensimmx)]
+
 [[portfolio](team/johndoe.md)]
 
 * Role: Team Lead
@@ -48,12 +50,11 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Aayush Bhatia
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/abhatia2003.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/abhatia2003)]
 
 * Role: Developer
 * Responsibilities: UI
