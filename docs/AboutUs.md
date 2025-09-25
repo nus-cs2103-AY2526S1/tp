@@ -21,6 +21,7 @@ You can reach us at the emails:
 * Responsibilities: Scheduling and Tracking
 * In charge of: Storage
 
+
 ### Pham Hai Minh
 
 <img src="images/monnss69.png" width="200px">
@@ -40,15 +41,15 @@ You can reach us at the emails:
 * Responsibilities: Code Standard
 * In charge of: Model
 
-### Jean Doe
+### Weng Mun
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/wengmu.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/wengmu)]
+[[portfolio](team/wengmun.md)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* In charge of: Testing
 
 ### James Doe
 
