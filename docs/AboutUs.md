@@ -5,19 +5,21 @@ title: About Us
 
 We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
 
-You can reach us at the email `seer[at]comp.nus.edu.sg`
+You can reach us at the emails: 
+`e1398200[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Maximus Ng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/mnjpeng.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/MNJPeng)]
+[[portfolio](team/mnjpeng.md)]
 
-* Role: Project Advisor
+* Role: Team Lead
+* Responsibilities: Scheduling and Tracking
+* In charge of: Storage
 
 ### Jane Doe
 
