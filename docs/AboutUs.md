@@ -19,7 +19,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/nghaowei)]
 [[portfolio](team/nghaowei.md)]
 
-* Role: Project Advisor
+* Role: Code Quality Checker
 
 ### Jane Do
 
