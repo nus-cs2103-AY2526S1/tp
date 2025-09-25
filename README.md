@@ -1,14 +1,26 @@
-[![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+[![CI Status](https://github.com/AY2526S1-CS2103T-T08-2/tp/workflows/Java%20CI/badge.svg)](https://github.com/AY2526S1-CS2103T-T08-2/tp/workflows/Java%20CI/badge.svg)
+[![codecov](https://codecov.io/gh/AY2526S1-CS2103T-T08-2/tp/graph/badge.svg?token=9LRCCBVF2H)](https://codecov.io/gh/AY2526S1-CS2103T-T08-2/tp)
 
-![Ui](docs/images/Ui.png)
+# OnlySales
 
-* This is **a sample project for Software Engineering (SE) students**.<br>
-  Example usages:
-  * as a starting point of a course project (as opposed to writing everything from scratch)
-  * as a case study
-* The project simulates an ongoing software project for a desktop application (called _AddressBook_) used for managing contact details.
-  * It is **written in OOP fashion**. It provides a **reasonably well-written** code base **bigger** (around 6 KLoC) than what students usually write in beginner-level SE modules, without being overwhelmingly big.
-  * It comes with a **reasonable level of user and developer documentation**.
-* It is named `AddressBook Level 3` (`AB3` for short) because it was initially created as a part of a series of `AddressBook` projects (`Level 1`, `Level 2`, `Level 3` ...).
-* For the detailed documentation of this project, see the **[Address Book Product Website](https://se-education.org/addressbook-level3)**.
-* This project is a **part of the se-education.org** initiative. If you would like to contribute code to this project, see [se-education.org](https://se-education.org/#contributing-to-se-edu) for more info.
+> The typing-first product for salesperson to unlock their full potential in managing their customers' contact information
+
+## Features
+
+### Minimal Viable Product
+
+* **Add Customer** - Add new customer contact information
+* **Edit Customer** - Edit existing customer information  
+* **Delete Customer** - Delete the customer from the app
+* **List Customer** - View all customers
+* **Set Status** - Update customer contact status (eg. uncontacted, rejected, etc.)
+* **Find Customer** - Search by tag, status, or name
+* **Create Email Template** - Generate email templates to copy for communication
+
+## Documentation
+
+View the documentation [here](https://nus-cs2103-ay2526s1.github.io/tp/)
+
+## Support
+
+File a bug report [here](https://github.com/AY2526S1-CS2103T-T08-2/tp/issues/new?template=bug_report.md)
