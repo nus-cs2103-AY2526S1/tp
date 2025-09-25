@@ -31,7 +31,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Ivan Ng
 
-<img src="images/me.png" width="200px">
+<img src="images/inzk0518.png" width="200px">
 
 [[github](http://github.com/inzk0518)] [[portfolio](team/ivanng.md)]
 
