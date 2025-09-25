@@ -40,15 +40,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Do
+### Bryan Leng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/bleng-flash.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/Bleng-flash)]
+[[portfolio](team/bryanleng.md)]
 
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Role: Documentation + Git expert
+* Responsibilities: 
 
 ### James Do
 
