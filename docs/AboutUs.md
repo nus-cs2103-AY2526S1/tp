@@ -26,7 +26,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 <img src="images/starishine.png" width="200px">
 
 [[github](http://github.com/starshine)]
-[[portfolio](team/starishine.md)]
+[[portfolio](team/sania.md)]
 
 * Role: Deliverables and deadlines, Scheduling and tracking
 * Responsibilities: Ensure project deliverables are done on time and in the right format.
