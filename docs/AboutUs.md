@@ -21,24 +21,25 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Code Quality Checker
 
-### Jane Do
+### Bawa Amarnath Sania
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/starishine.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/starshine)]
+[[portfolio](team/sania.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Deliverables and deadlines, Scheduling and tracking
+* Responsibilities: Ensure project deliverables are done on time and in the right format.
+In charge of defining, assigning, and tracking project tasks
 
-### Johnny Do
+### Lim Tze Shaun
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/juggernaut102.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/Juggernaut102)] [[portfolio](team/shaun.md)]
 
-* Role: Developer
-* Responsibilities: Data
+* Role: Testing
+* Responsibilities:
 
 ### Bryan Leng
 
@@ -50,12 +51,12 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Documentation + Git expert
 * Responsibilities: 
 
-### James Do
+### Ryan Toh
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/ryan-toh.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/ryan-toh)]
+[[portfolio](team/ryan-toh.md)]
 
-* Role: Developer
+* Role: Team Lead
 * Responsibilities: UI
