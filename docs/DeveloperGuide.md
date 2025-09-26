@@ -329,11 +329,30 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-
-*{More to be added}*
+1.  Environment Requirements
+    - Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
+    - Should be runnable without requiring installation.
+    - Should not depend on any remote server. 
+2.  Data Requirements
+    - User data should be locally in a human-editable text file.
+    - Data should be automatically saved after each modifications to prevent accidental loss.
+3.  Performance Requirements
+    - The system should start up within 3 seconds on a modern computer.
+    - Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage. 
+    - Search/filter operations should return results within 1 second for 1000 contacts.
+4.  Usability Requirements
+    - A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+    - The system should provide clear, human-readable error messages when invalid input is given. 
+    - The GUI should remain usable across standard screen resolutions (≥1280x720) and scaling settings (100%, 125%, 150%).
+5.  Maintainability Requirements
+    - The system should follow object-oriented principles to support modularity and extensibility.
+    - Code should follow a consistent style guide.
+6.  Portability Requirements
+    - The product should be packaged as a single `.jar` file (≤100 MB).
+    - Documents should not exceed 15 MB each.
+7.  Reliability Requirements
+    - The system should not crash under normal usage (adding, editing, deleting contacts).
+    - Invalid input should not cause data corruption or loss. 
 
 ### Glossary
 
