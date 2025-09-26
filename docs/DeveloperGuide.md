@@ -277,14 +277,13 @@ _{Explain here how the data archiving feature will be implemented}_
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
+| Priority | As a …​            | I want to …​                                                  | So that I can…​                                 |
+|----------|--------------------|---------------------------------------------------------------|-------------------------------------------------|
+| `* * *`  | As a private tutor | I want to be able to add my students’ contacts                | so that I can remember them                     |
+| `* * *`  | As a private tutor | I want to be able to delete a student contact                 | so that they are not in my contact list         |
+| `* * *`  | As a private tutor | I want to search the student’s contact information            | so that I can locate them easily                |
+| `* * *`  | As a private tutor | I want to track payment status per lesson                     | so that I know which lessons have been paid for |
+| `* * *`  | As a private tutor | I want to keep track of my students’ (recurrent) lesson times | so that I will not forget about the schedules   |
 
 *{More to be added}*
 
