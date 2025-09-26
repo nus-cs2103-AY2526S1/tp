@@ -49,10 +49,10 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Zhang Yifei
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/feliciaz05.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/feliciaz05)]
+[[portfolio](team/feliciaz05.md)]
 
 * Role: Developer
 * Responsibilities: UI
