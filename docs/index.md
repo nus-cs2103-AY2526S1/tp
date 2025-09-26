@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutor connect
+title: Student connect
 ---
 [![pages-build-deployment](https://github.com/AY2526S1-CS2103T-F09-2/tp/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/AY2526S1-CS2103T-F09-2/tp/actions/workflows/pages/pages-build-deployment)
 [![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
