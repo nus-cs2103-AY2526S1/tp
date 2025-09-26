@@ -20,13 +20,13 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Project Advisor
 
 ### Hao Rui
-<img src="images/johndoe.png" width="200px">
+<img src="images/haorui2004.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/haorui2004)]
+[[portfolio](team/haorui2004.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Developer
+* Responsibilities: Feature-X
 
 ### Renzo
 
