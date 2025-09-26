@@ -288,14 +288,14 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `StudentConnect` and the **Actor** is the `user`, unless specified otherwise)
 
 **Use case: Add a person**
 
 **MSS**
 
 1.  User requests to add a person's contact
-2.  AddressBook adds the person.
+2.  StudentConnect adds the person.
 
 
     Use case ends.
@@ -312,7 +312,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **MSS**
 
 1.  User requests to delete a person
-2.  AddressBook deletes the person
+2.  StudentConnect deletes the person
 
 
        Use case ends.
@@ -321,7 +321,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 * 2a. The person didn't exist.
 
-    * 2a1. AddressBook shows an error message.
+    * 2a1. StudentConnect shows an error message.
 
         Use case resumes at step 2.
     
@@ -333,7 +333,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **MSS**
 
 1.  User requests to search for a person
-2.  AddressBook lists the person
+2.  StudentConnect lists the person
 
 
        Use case ends.
@@ -342,7 +342,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 * 2a. The person doesn't exist.
 
-    * 2a1. AddressBook shows an error message.
+    * 2a1. StudentConnect shows an error message.
 
       Use case resumes at step 2.
 
@@ -353,7 +353,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **MSS**
 
 1.  User requests to add a lesson time for a person
-2.  AddressBook adds the time for the person
+2.  StudentConnect adds the time for the person
 
 
        Use case ends.
@@ -362,7 +362,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 * 2a. The person doesn't exist.
 
-    * 2a1. AddressBook shows an error message.
+    * 2a1. StudentConnect shows an error message.
 
       Use case resumes at step 2.
 
@@ -380,7 +380,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 1.  User requests to track if a person has paid for the latest lesson.
 2.  User marks person's latest lesson as paid.
-3. AddressBook marks the person's payment status as paid.
+3. StudentConnect marks the person's payment status as paid.
 
 
        Use case ends.
@@ -389,13 +389,13 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 * 1a. The person doesn't exist.
 
-    * 1a1. AddressBook shows an error message.
+    * 1a1. StudentConnect shows an error message.
 
       Use case resumes at step 1.
 
 * 1b. The person has no assigned lesson.
 
-    * 1b1. AddressBook shows an error message.
+    * 1b1. StudentConnect shows an error message.
 
       Use case resumes at step 1.
 
@@ -403,6 +403,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
     * 2a. AddressBook throws an error.
 
+      
+        Use case ends.
 
 ### Non-Functional Requirements
 
