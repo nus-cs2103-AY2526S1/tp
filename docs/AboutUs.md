@@ -1,59 +1,61 @@
 ---
-layout: page
-title: About Us
+  layout: default.md
+  title: "About Us"
 ---
 
-We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
+# About Us
 
-You can reach us at the email `seer[at]comp.nus.edu.sg`
+We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
+
+You can reach us at the email `e1399155@u.nus.edu`
 
 ## Project team
 
-### John Doe
+### Guo Gangquan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/guogangquan.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/GuoGangQuan)]
+[[portfolio](team/GuoGangquan.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: Deliverables and deadlines, UI Assistance
 
-### Jean Doe
+### Van Phuc
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/vanphuc1201.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/vanphuc1201)]
+[[portfolio](team/vanphuc1201.md)]
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Kenta Lim
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/kentalim2.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/kentalim2)] [[portfolio](team/johndoe.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: UI (main), Code Quality
+
+### Tze Yan
+
+<img src="images/tze088.png" width="200px">
+
+[[github](http://github.com/tze088)]
+[[portfolio](team/johndoe.md)]
+
+* Role: Team Lead
+* Responsibilities: Integration
+
+### Neko Nguyen
+
+<img src="images/neko-nguyen.png" width="200px">
+
+[[github](http://github.com/Neko-Nguyen)]
+[[portfolio](team/neko-nguyen.md)]
+
+* Role: Developer
+* Responsibilities: Code quality
