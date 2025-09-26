@@ -11,11 +11,11 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### An Xiao
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/anxinal.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[homepage](http://www.comp.nus.edu.sg/anxiao)]
+[[github](https://github.com/Anxinal)]
+[[portfolio](team/anxinal.md)]
 
 * Role: Project Advisor
 
