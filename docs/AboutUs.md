@@ -9,51 +9,46 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Poh Kai Siang Hanson
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/hansonpoh.png.jpg" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/hansonpoh)]
+[[portfolio](team/hansonpoh.md)]
 
 * Role: Team Lead
-* Responsibilities: UI
 
-### Johnny Doe
+### Max
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/meckss.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/Meckss]
+[[portfolio](team/max.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: UI
 
-### Jean Doe
+### Javier Lua
 
-<img src="images/johndoe.png" width="200px">
+![javier-lua.png](images/javier-lua.png)
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/javier-lua)]
+[[portfolio](team/javier.md)]
+* Role: Project Advisor
+
+### Serene 
+
+<img src="images/serenelwt.png" width="200px">
+
+[[github](https://github.com/serenelwt)]
+[[portfolio](team/serenelwt.md)]
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Lee Junwon
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/nownuj.png.jpg" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: UI
+[[github](https://github.com/NownuJ)]
+[[portfolio](team/nownuj.md)]

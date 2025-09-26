@@ -260,31 +260,43 @@ _{Explain here how the data archiving feature will be implemented}_
 
 ### Product scope
 
-**Target user profile**:
+*Target user profile*:
 
 * has a need to manage a significant number of contacts
-* prefer desktop apps over other types
+* contacts are from many different time zones and communication platforms
+* contacts are also both long and short term
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+*Value proposition*: manage contacts faster than a typical mouse/GUI driven app, in an organised way.
 
 
 ### User stories
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
-
-*{More to be added}*
+| Priority | As a …​        | I want to …​                                       | So that I can…​                                         |
+|----------|----------------|----------------------------------------------------|---------------------------------------------------------|
+| * * *    | user           | add new contacts with their relevant information   | check and contact relevant personnel when necessary.    |
+| * * *    | user           | delete a person                                    | remove contacts that I no longer need.                  |
+| * * *    | user           | save and read contacts on shutdown/startup         | maintain contact information across instances of usage. |
+| * * *    | busy user      | search contacts by company                         | sift through contacts easily.                           |
+| * *      | user           | set reminders on clients                           | stay alert on upcoming meetings.                        |
+| * *      | user           | check client's local time zone                     | contact them at appropriate times.                      |
+| * *      | user           | edit my contacts                                   | update client information easily.                       |
+| * *      | user           | attach tags to clients                             | recall connections to the client.                       |
+| * *      | user           | get alerts for clashing meetings                   | prevent double booking.                                 |
+| * *      | user           | search contacts by country                         | contact groups of people under the filter               |
+| * *      | user           | search contacts by tag                             | contact groups of people under the filter.              |
+| * *      | user           | search contacts by name                            | contact groups of people under the filter.              |
+| * *      | user           | Search contacts by projects they are working on    | contact groups of people under the filter.              |
+| *        | user           | import contacts from other communication platforms | add contacts easily.                                    |
+| *        | user           | check the last date of interaction with clients    | set up meetings for possible future opportunities.      |
+| *        | user           | set multiple tags on one contact                   | maintain overlapping projects without confusion.        |
+| *        | user           | merge duplicate contacts                           | maintain accurate contacts.                             |
+| *        | impatient user | see my frequently contacted users                  | save time.                                              |
+| *        | user           | auto-convert meeting times into my timezone        | prevent making scheduling mistakes.                     |
 
 ### Use cases
 
@@ -317,11 +329,30 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-
-*{More to be added}*
+1.  Environment Requirements
+    - Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
+    - Should be runnable without requiring installation.
+    - Should not depend on any remote server. 
+2.  Data Requirements
+    - User data should be locally in a human-editable text file.
+    - Data should be automatically saved after each modifications to prevent accidental loss.
+3.  Performance Requirements
+    - The system should start up within 3 seconds on a modern computer.
+    - Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage. 
+    - Search/filter operations should return results within 1 second for 1000 contacts.
+4.  Usability Requirements
+    - A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+    - The system should provide clear, human-readable error messages when invalid input is given. 
+    - The GUI should remain usable across standard screen resolutions (≥1280x720) and scaling settings (100%, 125%, 150%).
+5.  Maintainability Requirements
+    - The system should follow object-oriented principles to support modularity and extensibility.
+    - Code should follow a consistent style guide.
+6.  Portability Requirements
+    - The product should be packaged as a single `.jar` file (≤100 MB).
+    - Documents should not exceed 15 MB each.
+7.  Reliability Requirements
+    - The system should not crash under normal usage (adding, editing, deleting contacts).
+    - Invalid input should not cause data corruption or loss. 
 
 ### Glossary
 
