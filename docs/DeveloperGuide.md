@@ -260,15 +260,17 @@ _{Explain here how the data archiving feature will be implemented}_
 
 ### Product scope
 
-**Target user profile**:
+**Target user profile**: Private tutors
 
-* has a need to manage a significant number of contacts
+* has a need to manage a significant number of student/parent contacts
+* has a need to keep track of student's subjects
+* has to keep track of student's weekly meeting time 
 * prefer desktop apps over other types
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+**Value proposition**: provides tutors a fast way to organize contacts, lesson schedules, and guardian details, ensuring no confusion about classes or missed communication with parents.
 
 
 ### User stories
