@@ -401,7 +401,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 * 2a. The person's payment status is already paid.
 
-    * 2a. AddressBook throws an error.
+    * 2a.  StudentConnect throws an error.
 
       
         Use case ends.
