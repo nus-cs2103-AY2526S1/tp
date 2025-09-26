@@ -260,60 +260,152 @@ _{Explain here how the data archiving feature will be implemented}_
 
 ### Product scope
 
-**Target user profile**:
+**Target user profile**: Private tutors
 
-* has a need to manage a significant number of contacts
+* has a need to manage a significant number of student/parent contacts
+* has a need to keep track of student's subjects
+* has to keep track of student's weekly meeting time 
 * prefer desktop apps over other types
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+**Value proposition**: provides tutors a fast way to organize contacts, lesson schedules, and guardian details, ensuring no confusion about classes or missed communication with parents.
 
 
 ### User stories
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
+| Priority | As a …​            | I want to …​                                                  | So that I can…​                                 |
+|----------|--------------------|---------------------------------------------------------------|-------------------------------------------------|
+| `* * *`  | As a private tutor | I want to be able to add my students’ contacts                | so that I can remember them                     |
+| `* * *`  | As a private tutor | I want to be able to delete a student contact                 | so that they are not in my contact list         |
+| `* * *`  | As a private tutor | I want to search the student’s contact information            | so that I can locate them easily                |
+| `* * *`  | As a private tutor | I want to track payment status per lesson                     | so that I know which lessons have been paid for |
+| `* * *`  | As a private tutor | I want to keep track of my students’ (recurrent) lesson times | so that I will not forget about the schedules   |
 
 *{More to be added}*
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `StudentConnect` and the **Actor** is the `user`, unless specified otherwise)
 
-**Use case: Delete a person**
+**Use case: Add a person**
 
 **MSS**
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+1.  User requests to add a person's contact
+2.  StudentConnect adds the person.
+
 
     Use case ends.
 
 **Extensions**
 
-* 2a. The list is empty.
+* 2a. The person has already been added.
 
   Use case ends.
 
-* 3a. The given index is invalid.
 
-    * 3a1. AddressBook shows an error message.
+**Use case: Delete a person**
+
+**MSS**
+
+1.  User requests to delete a person
+2.  StudentConnect deletes the person
+
+
+       Use case ends.
+
+**Extensions**
+
+* 2a. The person didn't exist.
+
+    * 2a1. StudentConnect shows an error message.
+
+        Use case resumes at step 2.
+    
+  Use case ends.
+
+
+**Use case: Search for a person**
+
+**MSS**
+
+1.  User requests to search for a person
+2.  StudentConnect lists the person
+
+
+       Use case ends.
+
+**Extensions**
+
+* 2a. The person doesn't exist.
+
+    * 2a1. StudentConnect shows an error message.
 
       Use case resumes at step 2.
 
-*{More to be added}*
+  Use case ends.
+
+**Use case: Add a lesson time for a person**
+
+**MSS**
+
+1.  User requests to add a lesson time for a person
+2.  StudentConnect adds the time for the person
+
+
+       Use case ends.
+
+**Extensions**
+
+* 2a. The person doesn't exist.
+
+    * 2a1. StudentConnect shows an error message.
+
+      Use case resumes at step 2.
+
+* 2b. The person already has an allocated time.
+
+    * 2b1. The new lesson time will overwrite the previous lesson time.
+
+
+
+    Use case ends.
+
+**Use case: Track payment for a person's lesson**
+
+**MSS**
+
+1.  User requests to track if a person has paid for the latest lesson.
+2.  User marks person's latest lesson as paid.
+3. StudentConnect marks the person's payment status as paid.
+
+
+       Use case ends.
+
+**Extensions**
+
+* 1a. The person doesn't exist.
+
+    * 1a1. StudentConnect shows an error message.
+
+      Use case resumes at step 1.
+
+* 1b. The person has no assigned lesson.
+
+    * 1b1. StudentConnect shows an error message.
+
+      Use case resumes at step 1.
+
+* 2a. The person's payment status is already paid.
+
+    * 2a.  StudentConnect throws an error.
+
+      
+        Use case ends.
 
 ### Non-Functional Requirements
 

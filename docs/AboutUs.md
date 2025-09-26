@@ -9,51 +9,51 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### An Xiao
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/anxinal.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[homepage](http://www.comp.nus.edu.sg/anxiao)]
+[[github](https://github.com/Anxinal)]
+[[portfolio](team/anxinal.md)]
 
 * Role: Project Advisor
 
-### Jane Doe
+### Hao Rui
+<img src="images/haorui2004.png" width="200px">
 
-<img src="images/johndoe.png" width="200px">
+[[github](http://github.com/haorui2004)]
+[[portfolio](team/haorui2004.md)]
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+* Role: Developer
+* Responsibilities: Feature-X
 
-* Role: Team Lead
-* Responsibilities: UI
+### Renzo
 
-### Johnny Doe
+<img src="images/imrenzo.png" width="200px">
 
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/imrenzo)] 
+[[portfolio](team/imrenzo.md)]
 
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Doe
+### Vince
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/vinncee.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/vinncee)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Zhang Yifei
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/feliciaz05.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/feliciaz05)]
+[[portfolio](team/feliciaz05.md)]
 
 * Role: Developer
 * Responsibilities: UI
