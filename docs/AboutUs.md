@@ -20,7 +20,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: User Testing
 
-### Jane Doe
+### Yati He
 
 <img src="images/yatihe01.png" width="200px">
 
@@ -30,14 +30,17 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Documentation checks
 
-### Johnny Doe
+### Wayne Tan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/waynetanjh.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/waynetanjh)]
+[[portfolio](team/waynetanjh.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities:
+1. Scheduling and tracking: In charge of assigning and tracking project tasks.
+2. Integration: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.
 
 ### Jean Doe
 
