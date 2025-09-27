@@ -46,3 +46,13 @@ You can reach us at the email `e1398671@u.nus.edu`
 
 * Role: DevOps, CI/CD
 * Responsibilities: Parsing
+
+### Xu An
+
+<img src="images/xateh.png" width="200px">
+
+<!-- [[homepage](http://www.comp.nus.edu.sg/~tehxuan)] -->
+[[github](https://github.com/xateh)]
+
+* Role: Documentation
+* Responsibility: Model
