@@ -1,59 +1,61 @@
 ---
-layout: page
-title: About Us
+  layout: default.md
+  title: "About Us"
 ---
 
-We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
+# About Us
+
+We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
 
 You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Wen Fanyu
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/WFYishere.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
+[[github](https://github.com/WFYishere)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Project Advisor
 
-### Jane Doe
+### Marcus Ng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/peanutbutter1212.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/PeanutButter1212)]
+[[portfolio](team/peanutbutter1212.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: TBC
 
-### Jean Doe
+### Li Zekuan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/lzkkuan.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
-
-### James Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/lzkkuan)] [[portfolio](team/lzkkuan.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Eat & Sleep
+
+
+### Hao Yi
+
+<img src="images/haobuhaoo.png" width="200px">
+
+[[github](http://github.com/haobuhaoo)]
+[[portfolio](team/haobuhaoo.md)]
+
+* Role: Testing 
+* Responsibilities: Testing + Code Quality
+
+### Seah Min-Ren
+
+<img src="images/miinren.png" width="200px">
+
+[[github](http://github.com/miinren)]
+[[portfolio](team/miinren.md)]
+
+* Role: Developer
+* Responsibilities: UI, TBD, stuff
