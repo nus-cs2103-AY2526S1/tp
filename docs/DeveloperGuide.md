@@ -335,7 +335,9 @@ Priorities: High (must have) - `1`, Low (unlikely to have) - `4`
 ### Use cases
 
 **System: FAContactsPro**
+
 **Use case: UC01 - Add new client / colleague contact**
+
 **Actor: User**
 
 **MSS**
@@ -371,7 +373,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC02 - Delete client / colleague contact**
+
 **Actor: User**
 
 **MSS**
@@ -407,7 +411,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC03 - List all contacts**
+
 **Actor: User**
 
 **MSS**
@@ -449,7 +455,9 @@ Use case ends.
       Use case ends.
 
 **System: FAContactsPro**
+
 **Use case: UC04 - Search for contacts by Name**
+
 **Actor: User**
 
 **MSS**
@@ -485,7 +493,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC05 - Search for contacts by Phone Number**
+
 **Actor: User**
 
 **MSS**
@@ -521,7 +531,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC06 - Search for contacts by Email**
+
 **Actor: User**
 
 **MSS**
@@ -557,7 +569,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC07 - Search for contacts by Tag**
+
 **Actor: User**
 
 **MSS**
@@ -593,7 +607,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC08 - Edit a contact’s details**
+
 **Actor: User**
 
 **MSS**
@@ -639,7 +655,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC09 - Delete all contacts**
+
 **Actor: User**
 
 **MSS**
@@ -685,7 +703,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC10 - Exit FAContactsPro application**
+
 **Actor: User**
 
 **MSS**
@@ -721,7 +741,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC11 - Sort list of contacts by name**
+
 **Actor: User**
 
 **MSS**
@@ -746,7 +768,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC12 - Sort list of contacts by tags**
+
 **Actor: User**
 
 **MSS**
@@ -771,7 +795,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC13 - Set Reminder for Contact**
+
 **Actor: User**
 
 **MSS**
@@ -806,7 +832,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC14 - Adding custom notes to contact**
+
 **Actor: User**
 
 **MSS**
@@ -841,7 +869,9 @@ Use case ends.
       Use case resumes from Step 2.
 
 **System: FAContactsPro**
+
 **Use case: UC15 - Viewing all upcoming meetings with contact**
+
 **Actor: User**
 
 **MSS**
