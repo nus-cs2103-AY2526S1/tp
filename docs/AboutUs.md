@@ -11,6 +11,15 @@ You can reach us at the email `e1398671@u.nus.edu`
 
 ## Project team
 
+### Dylan Teo
+
+<img src="images/dylantjy.png" width="200px">
+
+[[github](https://github.com/dylantjy)]
+
+* Role: Documentation; MarkBind administration; Project site
+* Responsibilities: UI 
+
 ### Alden
 
 <img src="images/denz-denz.png" width="200px">
@@ -18,8 +27,7 @@ You can reach us at the email `e1398671@u.nus.edu`
 [[github](https://github.com/denz-denz)]
 
 * Role: Testing
-
-* Responsibility: Model
+* Responsibilities: Model
 
 ### Mitchel Lee
 
@@ -38,4 +46,3 @@ You can reach us at the email `e1398671@u.nus.edu`
 
 * Role: DevOps, CI/CD
 * Responsibilities: Parsing
-
