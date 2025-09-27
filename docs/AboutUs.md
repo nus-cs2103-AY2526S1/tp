@@ -9,6 +9,15 @@ We are a team based in the [School of Computing, National University of Singapor
 
 ## Project team
 
+### Mitchel Lee
+
+<img src="images/actualmulti.png" width="200px">
+
+[[github](http://github.com/actualmulti)]
+
+* Role: Project Management 
+* Responsibilities: Model
+
 ### Mattheus Cheong
 
 <img src="images/mattcce.png" width="200px">
