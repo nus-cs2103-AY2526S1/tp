@@ -334,32 +334,546 @@ Priorities: High (must have) - `1`, Low (unlikely to have) - `4`
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
-
-**Use case: Delete a person**
+**System: FAContactsPro**
+**Use case: UC01 - Add new client / colleague contact**
+**Actor: User**
 
 **MSS**
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+1. User types in command to add new contact.
 
-    Use case ends.
+2. FAContactsPro app adds the new contact to the list of contacts and displays a success message.
+
+Use case ends.
+
 
 **Extensions**
 
-* 2a. The list is empty.
+* 1a.  FAContacts pro detects an error in the command entered.
 
-  Use case ends.
+    * 1a1. FAContactsPro app displays an error message and requests user to try again
+  
+    * 1a2. User enters a new command to add a new contact.
+  
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+  
+      Use case resumes from Step 2.
 
-* 3a. The given index is invalid.
 
-    * 3a1. AddressBook shows an error message.
+* 1b. FAContactsPro is unable to update the contacts in the storage
 
-      Use case resumes at step 2.
+    * 1b1. FAContactsPro requests for the user to key in the add contact command again
 
-*{More to be added}*
+    * 1b2. The user types in the new command
+
+      Steps 1b1 - 1b2 is repeated until the system is able to update the data in the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC02 - Delete client / colleague contact**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to delete a contact.
+
+2. FAContactsPro app deletes the contact from the list of contacts and displays a success message.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests user to try again
+
+    * 1a2. User enters a new command to add a new contact.
+
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to update the contacts in the storage
+
+    * 1b1. FAContactsPro requests for the user to key in the delete contact command again
+
+    * 1b2. The user types in the new command
+
+      Steps 1b1 - 1b2 is repeated until the system is able to update the data in the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC03 - List all contacts**
+**Actor: User**
+
+**MSS**
+
+1. User types in the list command
+
+2. FAContactsPro displays the list of all contact
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  The system detects an error in the list command.
+
+    * 1a1. FAContactsPro requests for the correct command.
+
+    * 1a2. The user types in the new command.
+
+      Steps 1a1-1a2 are repeated until the command entered is correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to retrieve the contacts from the storage.
+
+    * 1b1. FAContactsPro requests for the user to key in the list command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to retrieve the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+* 1c. There are no contacts for FAContactsPro to retrieve.
+
+    * 1c1. FAContactsPro displays no contacts saved message and informs the user that all contacts have been retrieved.
+
+      Use case ends.
+
+**System: FAContactsPro**
+**Use case: UC04 - Search for contacts by Name**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to search contact by name.
+
+2. FAContactsPro app filters the list of contacts matching the name and lists all contacts.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to search for contacts by name.
+
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to retrieve the contacts from the storage.
+
+    * 1b1. FAContactsPro requests for the user to key in the search contact command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to retrieve the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC05 - Search for contacts by Phone Number**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to search contact by phone number.
+
+2. FAContactsPro app filters the list of contacts matching the phone number and lists all contacts.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to search for contacts by phone.
+
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to retrieve the contacts from the storage.
+
+    * 1b1. FAContactsPro requests for the user to key in the search contact command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to retrieve the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC06 - Search for contacts by Email**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to search contact by email.
+
+2. FAContactsPro app filters the list of contacts matching the email and lists all contacts.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to search for contacts by email.
+
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to retrieve the contacts from the storage.
+
+    * 1b1. FAContactsPro requests for the user to key in the search contact command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to retrieve the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC07 - Search for contacts by Tag**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to search contact by tag.
+
+2. FAContactsPro app filters the list of contacts matching the tag and lists all contacts.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to search for contacts by tag.
+
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to retrieve the contacts from the storage.
+
+    * 1b1. FAContactsPro requests for the user to key in the search contact command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to retrieve the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC08 - Edit a contact’s details**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to edit a contact’s details
+
+2. FAContactsPro app successfully edits the contact’s details and displays a success message.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to edit a contact's details.
+
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to retrieve the contacts from the storage.
+
+    * 1b1. FAContactsPro requests for the user to key in the edit contact command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to retrieve the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+* 1c. FAContactsPro is unable to update the contacts in the storage.
+
+    * 1c1. FAContactsPro requests for the user to key in the edit contact command again.
+
+    * 1c2. The user types in the new command.
+
+      Steps 1c1 - 1c2 is repeated until the system is able to update the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC09 - Delete all contacts**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to delete all contacts from contacts list.
+
+2. FAContactsPro app successfully deletes all contacts and displays a success message.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to delete all contacts.
+
+      Steps 1a1-1a2 are repeated until the command and details entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to retrieve the contacts from the storage.
+
+    * 1b1. FAContactsPro requests for the user to key in the delete all contacts command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to retrieve the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+* 1c. FAContactsPro is unable to update the contacts in the storage.
+
+    * 1c1. FAContactsPro requests for the user to key in the delete all contacts command again.
+
+    * 1c2. The user types in the new command.
+
+      Steps 1c1 - 1c2 is repeated until the system is able to update the data from the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC10 - Exit FAContactsPro application**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to exit the application.
+
+2. FAContactsPro app displays an exit message and closes the application.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to exit the application.
+
+      Steps 1a1-1a2 are repeated until the command entered are correct.
+
+      Use case resumes from Step 2.
+
+
+* 1b. FAContactsPro is unable to save the current list of contacts to the storage before exit.
+
+    * 1b1. FAContactsPro requests for the user to key in the exit command again.
+
+    * 1b2. The user types in the new command.
+
+      Steps 1b1 - 1b2 is repeated until the system is able to update and save the data in the storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC11 - Sort list of contacts by name**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to sort the contacts in contacts list by name
+
+2. FAContactsPro app sorts the current list of contacts in the contacts list by name and displays the new sorted contact list.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to sort contacts by name.
+
+      Steps 1a1-1a2 are repeated until the command entered is correct.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC12 - Sort list of contacts by tags**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to sort the contacts in contacts list by tags
+
+2. FAContactsPro app sorts the current list of contacts in the contacts list by tags and displays the new sorted contact list.
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to sort contacts by tags.
+
+      Steps 1a1-1a2 are repeated until the command entered is correct.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC13 - Set Reminder for Contact**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to add reminder for a contact on a specific date
+
+2. FAContactsPro app adds the reminder to the contact
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to set reminder for contact with specific date
+
+      Steps 1a1-1a2 are repeated until the command entered is correct.
+
+      Use case resumes from Step 2.
+
+* 1b.  FAContactsPro is unable to retrieve the specified contact from storage
+
+    * 1b1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1b2. User enters a new command to set reminder for contact with specific date
+
+      Steps 1b1-1b2 are repeated until the system is able to retrieve the contact from storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC14 - Adding custom notes to contact**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to add a custom note to contact
+
+2. FAContactsPro app adds the custom note to the contact
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to add custom note to contact
+
+      Steps 1a1-1a2 are repeated until the command entered is correct.
+
+      Use case resumes from Step 2.
+
+* 1b.  FAContactsPro is unable to retrieve the specified contact from storage
+
+    * 1b1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1b2. User enters a new command to add custom note to contact
+
+      Steps 1b1-1b2 are repeated until the system is able to retrieve the contact from storage without any errors.
+
+      Use case resumes from Step 2.
+
+**System: FAContactsPro**
+**Use case: UC15 - Viewing all upcoming meetings with contact**
+**Actor: User**
+
+**MSS**
+
+1. User types in command to view all upcoming meetings with client
+
+2. FAContactsPro app successfully displays all meetings associated with the specified client
+
+Use case ends.
+
+
+**Extensions**
+
+* 1a.  FAContacts pro detects an error in the command entered.
+
+    * 1a1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1a2. User enters a new command to  view all upcoming meetings with client
+
+      Steps 1a1-1a2 are repeated until the command entered is correct.
+
+      Use case resumes from Step 2.
+
+* 1b.  FAContactsPro is unable to retrieve the specified contact/meetings from storage
+
+    * 1b1. FAContactsPro app displays an error message and requests the user to try again.
+
+    * 1b2. User enters a new command to add custom note to contact
+
+      Steps 1b1-1b2 are repeated until the system is able to retrieve the contact/meetings from storage without any errors.
+
+      Use case resumes from Step 2.
 
 ### Non-Functional Requirements
 
