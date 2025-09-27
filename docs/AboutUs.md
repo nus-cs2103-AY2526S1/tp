@@ -20,7 +20,17 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: User Testing
 
-### Jane Doe
+### Li Mingyu
+
+<img src="images/sophie-lmy.png" width="200px">
+
+[[github](http://github.com/sophie-lmy)]
+[[portfolio](team/sophie-lmy.md)]
+
+* Role: Developer
+* Responsibilities: Code Quality
+
+### He Yati
 
 <img src="images/yatihe01.png" width="200px">
 
@@ -29,15 +39,6 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: Documentation checks
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
 
 ### Jean Doe
 
