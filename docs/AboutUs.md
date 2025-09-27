@@ -1,59 +1,58 @@
 ---
-layout: page
-title: About Us
+  layout: default.md
+  title: "About Us"
 ---
 
-We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
+# About Us
 
-You can reach us at the email `seer[at]comp.nus.edu.sg`
+We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
+
+You can reach us at the email `e1398671@u.nus.edu`
 
 ## Project team
 
-### John Doe
+### Dylan Teo
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/dylantjy.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/dylantjy)]
 
-* Role: Project Advisor
+* Role: Documentation; MarkBind administration; Project site
+* Responsibilities: UI 
 
-### Jane Doe
+### Alden
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/denz-denz.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/denz-denz)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Testing
+* Responsibilities: Model
 
-### Johnny Doe
+### Mitchel Lee
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/actualmulti.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/actualmulti)]
 
-* Role: Developer
-* Responsibilities: Data
+* Role: Project Management 
+* Responsibilities: Model
 
-### Jean Doe
+### Mattheus Cheong
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/mattcce.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/mattcce)]
 
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Role: DevOps, CI/CD
+* Responsibilities: Parsing
 
-### James Doe
+### Xu An
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/xateh.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+<!-- [[homepage](http://www.comp.nus.edu.sg/~tehxuan)] -->
+[[github](https://github.com/xateh)]
 
-* Role: Developer
-* Responsibilities: UI
+* Role: Documentation
+* Responsibility: Model
