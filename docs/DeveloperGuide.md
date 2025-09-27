@@ -285,18 +285,41 @@ _{Explain here how the data archiving feature will be implemented}_
 
 ### User stories
 
-Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
+Priorities: High (must have) - `1`, Low (unlikely to have) - `4`
 
-| Priority | As a …​                                    | I want to …​                 | So that I can…​                                                        |
-|----------|--------------------------------------------|------------------------------|------------------------------------------------------------------------|
-| `* * *`  | new user                                   | see usage instructions       | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person             |                                                                        |
-| `* * *`  | user                                       | delete a person              | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name        | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name         | locate a person easily                                                 |
-
-*{More to be added}*
+| Priority | As a …​                | I want to …​                                                                                     | So that I can…​                                                                                                               |
+|:--------:|------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+|   `1`    | financial advisor      | add a client's contact details (name, phone, email...)                                           | keep track of their information                                                                                               |
+|   `1`    | financial advisor      | add a colleague's contact details (name, phone, email...)                                        | keep track of their information                                                                                               |
+|   `1`    | financial advisor      | remove a contact                                                                                 | remove a contact when I no longer need it                                                                                     |
+|   `1`    | financial advisor      | display all of my contacts that I saved                                                          | view all of my contacts                                                                                                       |
+|   `1`    | financial advisor      | exit the application                                                                             | leave the application and do other stuff                                                                                      |
+|   `2`    | financial advisor      | search for contacts by name                                                                      | retrieve the information of contacts that match my requirements                                                               |
+|   `2`    | financial advisor      | search for contacts by phone                                                                     | retrieve the information of contacts that match my requirements                                                               |
+|   `2`    | financial advisor      | search for contacts by email                                                                     | retrieve the information of contacts that match my requirements                                                               |
+|   `2`    | financial advisor      | search for contacts by tags                                                                      | retrieve the information of contacts that match my requirements                                                               |
+|   `2`    | financial advisor      | edit a contact's information                                                                     | make modifications when my contact's details changes                                                                          |
+|   `2`    | financial advisor      | wipe out all of my contacts                                                                      | do a hard reset of the application                                                                                            |
+|   `2`    | financial advisor      | sort my contacts ascendingly/descendingly based on different conditions (name, phone, email...)  | look through my contacts easier                                                                                               |
+|   `2`    | financial advisor      | view upcoming meetings linked to a client's profile                                              | be prepared with the right context                                                                                            |
+|   `2`    | financial advisor      | classify clients in accordance with their outreach stage (e.g. leads, opportunities, sales etc.) | better know what actionable steps are required to take for each of the different types of clients                             |
+|   `2`    | financial advisor      | have the ability to access a single view for each client (with all their details/information)    | have an easier time understanding everything I need to know about a client at one glance                                      |
+|   `2`    | financial advisor      | record and see all interactions for each client in one place                                     | have full context to make informed decisions and plan next steps for the client                                               |
+|   `2`    | first-time user        | have a guidebook/document of all the functionalities available                                   | have an easier time integrating into and navigating the application                                                           |
+|   `2`    | financial advisor      | search for client meetings based on dates                                                        | easily view the meetings i have for the particular date                                                                       |
+|   `2`    | financial advisor      | view past meetups with a particular client                                                       | plan for future meetups                                                                                                       |
+|   `2`    | financial advisor      | sort and record clients based on revenue brought in                                              | prioritize clients accordingly                                                                                                |
+|   `2`    | first-time user        | upload / sync all my clients contacts directly                                                   | have easy access to their contacts and not have to add them individually                                                      |
+|   `2`    | exiting advisor        | export my client details                                                                         | hand over clients to other advisors                                                                                           |
+|   `3`    | financial advisor      | add custom notes to my contacts                                                                  | keep track of additional information about my contacts                                                                        |
+|   `3`    | busy financial advisor | set reminders for follow-ups with clients                                                        | be reminded on them and not miss important check-ins                                                                          |
+|   `3`    | financial advisor      | store related attachments/files for each contact                                                 | have all relevant documents easily accessible in one place                                                                    |
+|   `3`    | financial advisor      | link related contacts together (link together families, business partners, referrals etc.)       | see networks to help with personalisation and gives context for better financial advice (family plans, joint investments etc) |
+|   `3`    | seasoned user          | have the ability to select multiple contacts to update/set reminders at once                     | save time by managing multiple clients at once                                                                                |
+|   `4`    | financial advisor      | sync the address book with my calender                                                           | keep track of meetings and plan for meetings accordingly                                                                      |
+|   `4`    | financial advisor      | use the application offline                                                                      | plan for meetings without the need for network access                                                                         |
+|   `4`    | financial advisor      | broadcast information to clients through email                                                   | update them accordingly with market news                                                                                      |
+|   `4`    | financial advisor      | set up meeting invites through google / zoom                                                     | book the time of my clients in advance                                                                                        |
 
 ### Use cases
 
