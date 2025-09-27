@@ -262,29 +262,43 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
-* has a need to manage a significant number of contacts
+* works as a Financial Advisor professionally
+* has a need to manage a significant number of clients and contacts
+* wants to store clients' profile to get applicable financial plans for them
 * prefer desktop apps over other types
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+**Value proposition**: help Financial Advisors to manage many contacts faster than a typical mouse/GUI driven app
 
 
 ### User stories
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
-
-*{More to be added}*
+| Priority | As a …​                                                          | I want to …​                                                                            | So that I can…​                                                                            |
+|----------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| `* * *`  | Financial Advisor                                                | store detailed client profiles (including salary, age etc)                              | quickly assess which insurance plans are best suited for which client                      |
+| `* * *`  | Financial Advisor                                                | edit my client's data                                                                   | update their details if there is any change                                                |
+| `* * *`  | Financial Advisor                                                | archive or delete old clients                                                           | remove entries that I no longer need                                                       |
+| `* * *`  | Financial Advisor                                                | assess the application offline                                                          | work without internet connection.                                                          |
+| `* * *`  | Financial Advisor                                                | add a new client profile with key financial details                                     | provide personalized recommendations later.                                                |
+| `* * *`  | Financial Advisor                                                | safely store and access sensitive customer data since it is a remote application        | not worry about data beaches                                                               |
+| `* * *`  | Financial advisor                                                | quickly search for clients based on their names	                                        | get their data quickly                                                                     |
+| `* *`    | Financial advisor	                                               | filter my client list based on specific criteria (age range, income level)	             | quickly assess which insurance plans are best suited for which client                      |
+| `* *`    | Financial advisor	                                               | tag them with custom labels	                                                            | split them into meaningful groups.                                                         |
+| `* *`    | Financial advisor that is new to the system	                     | see sample client profiles when I open the app	                                         | quickly understand how information is structured and stored                                |
+| `* *`    | Financial advisor ready to use the system in my day to day work	 | delete all samples and test data/start a clean account for myself	                      | input real client information.                                                             |
+| `*`      | Financial advisor	                                               | list out the customers whose insurance plans are ending	                                | recommend new policies                                                                     |
+| `*`      | Financial advisor	                                               | sort my list based on category (name, income level, age range)	                         | quickly identify clients at the bottom or top of a category                                |
+| `*`      | Financial advisor worried about local breaching	                 | have login password to the app	                                                         | be assured that no other people can access the data locally                                |
+| `*`      | Financial advisor that likes to add extra details                | 	add notes for each client	                                                             | can add additional information regarding the client                                        |
+| `*`      | Financial advisor that is forgetful	                             | reset my password	                                                                      | regain access if I forget it                                                               |
+| `*`      | results-driven financial manager	                                | see aggregated statistics on how many new clients each advisor has onboarded	           | monitor productivity and client acquisition trends.                                        |
+| `*`      | mobile and on-the-go financial advisor	                          | update client data even when I don’t have my desktop	                                   | remain productive during travel or client site visits.                                     |
+| `*`      | proactive and client-centric financial advisor		                 | flag clients I haven’t contacted in a long time                                         | re-engage them with timely interactions and reduce the risk of losing them to competitors. |
+| `*`      | meticulous and details-driven financial advisor	                 | record significant life events (marriage, new child, job change) in a client’s profile	 | proactively suggest financial products that match their changing circumstances.            |
 
 ### Use cases
 
@@ -310,6 +324,97 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 * 3a. The given index is invalid.
 
     * 3a1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+
+**Use case: Find a person**
+
+**MSS**
+
+1.  User requests to list persons
+2.  AddressBook shows a list of persons
+3.  User requests to find a list of persons containing the keyword.
+4.  AddressBook finds and shows a new list of matching persons.
+
+    Use case ends.
+
+**Extensions**
+
+* 2a. The list is empty.
+
+  Use case ends.
+
+* 3a. The given name is invalid.
+
+    * 3a1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+
+**Use case: View a person**
+
+**MSS**
+
+1.  User requests to list persons
+2.  AddressBook shows a list of persons
+3.  User requests to view a specific person in the list.
+4.  AddressBook shows the person's details.
+
+    Use case ends.
+
+**Extensions**
+
+* 2a. The list is empty.
+
+  Use case ends.
+
+* 3a. The given index is invalid.
+
+    * 3a1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+* 3b. The given name is invalid.
+
+    * 3b1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+* 3c. The given name matches with 2 or more people
+
+    * 3c1. AddressBook shows a list of matching persons with their 
+	   index and prompt User to view based on index instead of name.
+
+      Use case resumes at step 2.
+
+
+**Use case: Filter list of persons**
+
+**MSS**
+
+1.  User requests to list persons
+2.  AddressBook shows a list of persons
+3.  User requests to filter the list based on input field.
+4.  AddressBook shows the filtered list.
+
+    Use case ends.
+
+**Extensions**
+
+* 2a. The list is empty.
+
+  Use case ends.
+
+* 3a. The given input field does not exist.
+
+    * 3a1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+* 3b. The given input contains duplicate field.
+
+    * 3b1. AddressBook shows an error message.
 
       Use case resumes at step 2.
 

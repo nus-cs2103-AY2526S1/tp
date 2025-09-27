@@ -9,51 +9,51 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Lim Wee Kit
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/limweekit.png" width="200px">
 
 [[homepage](http://www.comp.nus.edu.sg/~damithch)]
 [[github](https://github.com/johndoe)]
 [[portfolio](team/johndoe.md)]
 
-* Role: Project Advisor
+* Role: Testing
 
-### Jane Doe
+### Jun Duan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/owjd03.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/owjd03)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibilities: Documentation
 
-### James Doe
+### Matthias Yim
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/matthias890.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/matthias890)] [[portfolio](team/johndoe.md)]
+
+* Role: Developer
+* Responsibilities: Code Quality
+
+### Thia Yi Hong
+
+<img src="images/yhthia.png" width="200px">
+
+[[github](http://github.com/yhthia)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Scheduling and tracking
+
+### Vigo King
+
+<img src="images/vrospix.png" width="200px">
+
+[[github](http://github.com/vrospix)]
+[[portfolio](team/johndoe.md)]
+
+* Role: Integration
+* Responsibilities: Code maintaining
