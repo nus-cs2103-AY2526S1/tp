@@ -1,14 +1,21 @@
-[![CI Status](https://github.com/se-edu/addressbook-level3/workflows/Java%20CI/badge.svg)](https://github.com/se-edu/addressbook-level3/actions)
+[![Java CI](https://github.com/AY2526S1-CS2103-F12-1/tp/actions/workflows/gradle.yml/badge.svg)](https://github.com/AY2526S1-CS2103-F12-1/tp/actions/workflows/gradle.yml) [![codecov_status](https://codecov.io/github/AY2526S1-CS2103-F12-1/tp/graph/badge.svg?token=F1LQYX8J1K)](https://codecov.io/github/AY2526S1-CS2103-F12-1/tp)
 
+# henri
 ![Ui](docs/images/Ui.png)
 
-* This is **a sample project for Software Engineering (SE) students**.<br>
-  Example usages:
-  * as a starting point of a course project (as opposed to writing everything from scratch)
-  * as a case study
-* The project simulates an ongoing software project for a desktop application (called _AddressBook_) used for managing contact details.
-  * It is **written in OOP fashion**. It provides a **reasonably well-written** code base **bigger** (around 6 KLoC) than what students usually write in beginner-level SE modules, without being overwhelmingly big.
-  * It comes with a **reasonable level of user and developer documentation**.
-* It is named `AddressBook Level 3` (`AB3` for short) because it was initially created as a part of a series of `AddressBook` projects (`Level 1`, `Level 2`, `Level 3` ...).
-* For the detailed documentation of this project, see the **[Address Book Product Website](https://se-education.org/addressbook-level3)**.
-* This project is a **part of the se-education.org** initiative. If you would like to contribute code to this project, see [se-education.org](https://se-education.org/#contributing-to-se-edu) for more info.
+## Value Proposition
+Our application helps HR personnel accelerate company processes via improved readability, contact organisation,
+efficient timetabling, and mass emailing targeted groups, all easily accessible through a keyboard. This app provides
+the option to add details in bulk. Features the option to set preset tags so that users can attach them fast.
+
+## Features
+
+1. View employee details including salary, contact info, or GitHub usernames
+2. Add, delete or edit contacts
+3. Import and export saved contacts
+4. Tag employees and teams with custom labels
+5. Search for a contact by their project team
+6. View organisation hierarchy overview
+
+## Disclaimer
+This project is based on the AddressBook-Level3 project created by the [SE-EDU initiative](https://se-education.org).

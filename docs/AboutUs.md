@@ -1,59 +1,61 @@
 ---
-layout: page
-title: About Us
+  layout: default.md
+  title: "About Us"
 ---
 
-We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
+# About Us
+
+We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
 
 You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Caleb Goh
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/calebanana.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/calebanana)]
+[[portfolio](team/calebanana.md)]
 
-* Role: Project Advisor
+* Role: Scheduling and tracking
+* Responsibilities: Defining, assigning, and tracking project tasks
 
-### Jane Doe
+### Danny Chan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/dannyoncode.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/dannyoncode)]
+[[portfolio](team/dannyoncode.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Integration
+* Responsibilities: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.
 
-### Johnny Doe
+### Swee Kah Ho
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/kahkoii.png" width="200px" alt="kah ho picture">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/kahkoii)] [[portfolio](team/kahkoii.md)]
 
-* Role: Developer
-* Responsibilities: Data
+* Role: Testing
+* Responsibilities: Ensures the testing of the project is done properly and on time
 
-### Jean Doe
+### Xu Yong Lin
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/yonglinnnnnn.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/yonglinnnnnn)]
+[[portfolio](team/yonglinnnnnn.md)]
 
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Role: Deliverables and deadlines
+* Responsibilities: Ensure project deliverables are done on time and in the right format. 
 
-### James Doe
+### Zhang Puyu
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/z-puyu.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/Z-Puyu)]
+[[portfolio](team/z-puyu.md)]
 
-* Role: Developer
-* Responsibilities: UI
+* Role: Code Quality
+* Responsibilities: Looks after code quality, ensures adherence to coding standards
