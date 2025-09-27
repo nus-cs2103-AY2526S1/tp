@@ -21,15 +21,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Project Advisor
 
-### Jane Doe
+### Marcus Ng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/peanutbutter1212.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/PeanutButter1212)]
+[[portfolio](team/peanutbutter1212.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Developer
+* Responsibilities: TBC
 
 ### Johnny Doe
 
