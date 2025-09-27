@@ -363,16 +363,16 @@ Priorities: High (must have) - `1`, Low (unlikely to have) - `4`
 
 ### Non-Functional Requirements
 
-1. Data performance: the system should be able to hold up to 10000 contacts
-2. Cross Compatibility: the system should be cross compatible across different operating systems (Mac, Windows etc.) as long as they have java 17
-3. Performance Requirements: the system should respond within two seconds
-4. Quality requirements: the system should be usable by a novice who has never used a contact management system.
-5. Security: Data should only be accessible by the user of the device of the application
-6. Maintainability: the code base should be modular, and follow a strict OOP structure
-7. Maintainability: there should be clear documentations on the code base
-8. Scalability: the application design should allow for new features without large architectural changes
-9. Data persistence: Contact details should be saved automatically after every modification.
-10. Compliance: the system should comply with the relevant data protection regulations if handling personal information
+1. **Data performance**: the system should be able to hold up to 10000 contacts
+2. **Cross Compatibility**: the system should be cross compatible across different operating systems (Mac, Windows etc.) as long as they have java 17
+3. **Performance Requirements**: the system should respond within two seconds
+4. **Quality requirements**: the system should be usable by a novice who has never used a contact management system.
+5. **Security**: Data should only be accessible by the user of the device of the application
+6. **Maintainability**: the code base should be modular, and follow a strict OOP structure
+7. **Maintainability**: there should be clear documentations on the code base
+8. **Scalability**: the application design should allow for new features without large architectural changes
+9. **Data persistence**: Contact details should be saved automatically after every modification.
+10. **Compliance**: the system should comply with the relevant data protection regulations if handling personal information
 
 ### Glossary
 * **Client / Contact**: Refers to an individual whose details are stored in the system. Each client/contact record includes attributes such as name, phone number, email, and tags.
