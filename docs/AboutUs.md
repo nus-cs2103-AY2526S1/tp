@@ -19,15 +19,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Project Advisor
 
-### Jane Doe
+### Li Mingyu
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/sophie-lmy.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/sophie-lmy)]
+[[portfolio](team/sophie-lmy.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Developer
+* Responsibilities: Code Quality
 
 ### Johnny Doe
 
