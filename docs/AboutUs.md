@@ -55,5 +55,5 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](http://github.com/cheeden)]
 [[portfolio](team/cheeden.md)]
 
-* Role: Project Manager
-* Responsibilities: Features
+* Role: Developer
+* Responsibilities: Features and UI
