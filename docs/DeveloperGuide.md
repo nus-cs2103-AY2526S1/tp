@@ -262,66 +262,183 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
+* manages multiple clubs
 * has a need to manage a significant number of contacts
 * prefer desktop apps over other types
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
-
+**Value proposition**: 
+manage multiple clubs & clubs' contacts faster than a typical mouse/GUI driven app
 
 ### User stories
 
-Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
+Priorities: High (must have) - `***`, Medium (nice to have / good to have) - `**`, Low (optional / unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
+### User Stories
 
-*{More to be added}*
+| #  | As a …                           | I can …                                                  | So that I can …                                                              | Notes |
+|----|----------------------------------|----------------------------------------------------------|------------------------------------------------------------------------------|-------|
+| 1  | potential user exploring the app | see the app populated with sample data                   | easily see how the app will look like when it is in use                      | ***   |
+| 2  | user                             | add contacts                                             | add contact details of fellow members                                        | ***   |
+| 3  | user                             | search for contacts                                      | quickly locate them from their information                                   | ***   |
+| 4  | user                             | edit contacts                                            | update contact details of members when the members change their phone number | ***   |
+| 5  | user                             | delete contacts                                          | remove contact details of members who have left the club                     | ***   |
+| 6  | user                             | add multiple phone numbers                               | add all the contact’s different phone numbers e.g. mobile, home, office      | **    |
+| 7  | management                       | download the address book data from a file               | forward the address book file to members in the management committee         | *     |
+| 8  | member                           | import address book data from a file                     | easily get the data that someone sent me into my app                         | *     |
+| 9  | user                             | add notes to a contact                                   | record extra details about the person                                        | **    |
+| 10 | user                             | view a contact’s full profile in a screen                | easily see all the info about a person                                       | **    |
+| 11 | management                       | create a club with management                            | group members together                                                       | ***   |
+| 12 | management                       | assign a contact to multiple clubs                       | know which clubs they belong to                                              | ***   |
+| 13 | member                           | view all members of a club                               | get the full list of members of a club                                       | ***   |
+| 14 | management                       | edit a club                                              | update club details                                                          | ***   |
+| 15 | management                       | delete a club                                            | remove clubs that no longer exist                                            | ***   |
+| 16 | management                       | record when someone joined a club                        | track how long they have been in the club                                    | **    |
+| 17 | member                           | search for a club by name                                | look up a club quickly                                                       | ***   |
+| 18 | management                       | add more club info such as descriptions, timings, venues | keep track of what each club does and when and where the club takes place    | **    |
+| 19 | management                       | tag a contact as a club committee member                 | know that this contact is a committee member of a certain club               | **    |
+| 20 | member                           | view all committee members of a club                     | quickly find their information when I need to contact them about their clubs | **    |
+| 21 | user                             | sort contacts by name                                    | view my contacts in an order that is intuitive                               | **    |
+| 22 | user                             | sort club members by join date                           | see new and old members more easily                                          | **    |
+| 23 | user                             | delete multiple contacts at once                         | delete faster                                                                | **    |
+| 24 | user                             | create a profile photo for contacts                      | easily identify people, even if they share names                             | **    |
+| 25 | user                             | bookmark or save important contacts                      | easily access them                                                           | **    |
+| 26 | user                             | quickly copy a contact to my clipboard                   | more quickly access contacts                                                 | **    |
+| 27 | management                       | create events and tag contacts                           | attach contact details to real world club events                             | **    |
+| 28 | user                             | tag multiple contacts at once                            | speed up tagging                                                             | **    |
+| 29 | user                             | search by multiple fields at once                        | more precisely find contacts                                                 | **    |
+| 30 | user                             | undo my last action                                      | easily go back on my mistakes                                                | **    |
+
+
+*More to be added…*
+
+
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `ClubHub` and the **Actor** is the `user`, unless specified otherwise)
 
-**Use case: Delete a person**
+#### **Use case: Delete a contact**
+
+**Scope:** The user wants to remove a contact from the contact book. The `del_contact` command allows deletion by the contact's name.
 
 **MSS**
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+1.  The user requests to list contacts using the `list_contacts` command to find the name of the contact to be deleted.
+2.  The contact book app displays a list of all contacts.
+3.  The user issues the `del_contact NAME` command with the name of an existing contact.
+4.  The contact book app deletes the contact from the system and all associated clubs, displaying a confirmation message: "Contact deleted: <NAME>; Phone: <PHONE_NUMBER>; Email: <EMAIL>".
 
     Use case ends.
 
 **Extensions**
 
-* 2a. The list is empty.
+*   2a. The contact list is empty.
+    *   2a1. The contact book app shows the message: "You do not have any contacts saved."
+        Use case ends.
+*   3a. The contact name provided does not exist in the contact book.
+    *   3a1. The contact book app shows an error message: "Contact not found".
+        Use case resumes at step 1.
+*   3b. The user provides an invalid command format.
+    *   3b1. The contact book app shows an error message: "Invalid command format. Usage: `del_contact NAME`".
+        Use case resumes at step 1.
 
-  Use case ends.
+#### **Use case: Add a new contact**
 
-* 3a. The given index is invalid.
+**Scope:** The user wants to add a new contact to a club in the contact book.
 
-    * 3a1. AddressBook shows an error message.
+**MSS**
 
-      Use case resumes at step 2.
+1.  The user issues the command `add_contact n/NAME p/PHONE_NUMBER e/EMAIL c/CLUB`.
+2.  The contact book app validates the fields and confirms the specified club exists.
+3.  The app creates the new contact, associates it with the specified club, and displays a success message: "Contact added: <NAME>; Phone: <PHONE_NUMBER>; Email: <EMAIL> to <CLUB>".
 
-*{More to be added}*
+    Use case ends.
+
+**Extensions**
+
+*   2a. A contact with the same name, phone number, or email already exists.
+    *   2a1. The contact book app shows a relevant error message, such as "Contact name <NAME> already exists."
+        Use case ends.
+*   2b. One of the provided fields is invalid (e.g., name is too long, phone number has non-digit characters, or email format is incorrect).
+    *   2b1. The contact book app shows the corresponding error message for the invalid parameter (e.g., "Name too long (70 characters)").
+        Use case ends.
+*   2c. The specified club name does not exist.
+    *   2c1. The contact book app creates the new club and then adds the contact to it, showing the success message from MSS step 3.
+        Use case ends.
+*   2d. The user provides an invalid command format.
+    *   2d1. The contact book app shows an error message: "Invalid command format. Usage: `add_contact n/NAME p/PHONE_NUMBER e/EMAIL`".
+        Use case ends.
+
+#### **Use case: Add a new club**
+
+**Scope:** The user wants to create a new club in the contact book.
+
+**MSS**
+
+1.  The user issues the `add_club CLUB_NAME` command with a valid and unique club name.
+2.  The contact book app creates the new club and displays a success message: "Club added: <CLUB_NAME>".
+
+    Use case ends.
+
+**Extensions**
+
+*   2a. The specified club name already exists.
+    *   2a1. The contact book app shows an error message: "Club <NAME> already exists."
+        Use case ends.
+*   2b. The provided club name is invalid (e.g., it is blank or exceeds 70 characters).
+    *   2b1. The contact book app shows the relevant error message (e.g., "Name cannot be blank").
+        Use case ends.
+*   2c. The command format is invalid.
+    *   2c1. The contact book app shows an error message: "Invalid command format. Usage: `add_club CLUB_NAME`".
+        Use case ends.
+
+#### **Use case: Delete a club**
+
+**Scope:** The user wants to delete an existing club from the contact book.
+
+**MSS**
+
+1.  The user requests to list all clubs using the `list_clubs` command.
+2.  The contact book app displays a list of all existing clubs.
+3.  The user issues the `del_club CLUB_NAME` command with the name of a club from the list.
+4.  The contact book app deletes the specified club and shows a success message: "Club deleted: <NAME>".
+
+    Use case ends.
+
+**Extensions**
+
+*   2a. The list of clubs is empty.
+    *   2a1. The contact book app shows an error message: "You do not have any clubs saved."
+        Use case ends.
+*   3a. The specified club name does not exist.
+    *   3a1. The contact book app shows an error message: "Club not found".
+        Use case resumes at step 1.
+*   3b. The command format is invalid.
+    *   3b1. The contact book app shows an error message: "Invalid command format. Usage: `del_club CLUB_NAME`".
+        Use case resumes at step 1.
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-
-*{More to be added}*
+1. Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
+2. Should be able to hold up to 1000 persons and 100 clubs without a noticeable sluggishness in performance for typical usage.
+3. A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+4. The software should work without requiring an installer.
+5. The GUI should work well (i.e., should not cause any resolution-related inconveniences to the user) for standard screen resolutions 1920x1080 and higher and for screen scales 100% and 125%. In addition, the GUI should be usable (i.e., all functions can be used even if the user experience is not optimal) for resolutions 1280x720 and higher and for screen scales 150%.
+6. Text and other UI elements should not overflow if too long and should still be displayed properly in full, perhaps in a scroll view.
+7. Every command failures should display an appropriate error message.
+8. Error messages should be clear, specific, and give suggestions on how to fix the error.
+9. Loading and saving to file should be fast, user should not see a noticeable freeze.
+10. Loading and saving to file should never crash, even if file is corrupted/invalid.
+11. Application should never corrupt save file.
+12. Data should be saved up to the latest action even if the app is not exited conventionally.
+13. Save file should not be encrypted and should be in a human editable text file.
+14. Command syntax should be consistent and predictable, especially between commands for contacts and commands for clubs.
+15. The application should be optimized to run smoothly on standard hardware.
+16. The application size should be less than 100MB to facilitate easy distribution and storage.
+17. The application does not need to support multi-user operations.
 
 ### Glossary
 

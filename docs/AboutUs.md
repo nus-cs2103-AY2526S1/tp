@@ -5,54 +5,54 @@ title: About Us
 
 We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
 
-You can reach us at the email `seer[at]comp.nus.edu.sg`
+You can reach us at the email `e1357170@u.nus.edu`
 
 ## Project team
 
-### John Doe
+### Nguyen The Bach
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/djgmh9.png" width="200px">
 
 [[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
+[[github](https://github.com/djgmh9)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Project Advisor
 
-### Jane Doe
+### Trinh Hoang Hai
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/hai0506.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/hai0506)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Team Lead
 * Responsibilities: UI
 
-### Johnny Doe
+### Kan Rui Xian Matthew
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/krxm107.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/krxm107)] [[portfolio](team/matthew.md)]
 
 * Role: Developer
 * Responsibilities: Data
 
-### Jean Doe
+### Chen Ziming
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/zmzzz3.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/Zmzzz3)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Yen Jun Jie Richard
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/yjjr0.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/yjjr0)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
