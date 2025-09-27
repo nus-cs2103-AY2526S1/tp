@@ -324,7 +324,7 @@ Priorities: High (must have) - `***`, Medium (nice to have / good to have) - `**
 
 **Scope:** The user wants to remove a contact from the contact book. The `del_contact` command allows deletion by the contact's name.
 
-**Main Success Scenario (MSS)**
+**MSS**
 
 1.  The user requests to list contacts using the `list_contacts` command to find the name of the contact to be deleted.
 2.  The contact book app displays a list of all contacts.
@@ -349,7 +349,7 @@ Priorities: High (must have) - `***`, Medium (nice to have / good to have) - `**
 
 **Scope:** The user wants to add a new contact to a club in the contact book.
 
-**Main Success Scenario (MSS)**
+**MSS**
 
 1.  The user issues the command `add_contact n/NAME p/PHONE_NUMBER e/EMAIL c/CLUB`.
 2.  The contact book app validates the fields and confirms the specified club exists.
@@ -376,7 +376,7 @@ Priorities: High (must have) - `***`, Medium (nice to have / good to have) - `**
 
 **Scope:** The user wants to create a new club in the contact book.
 
-**Main Success Scenario (MSS)**
+**MSS**
 
 1.  The user issues the `add_club CLUB_NAME` command with a valid and unique club name.
 2.  The contact book app creates the new club and displays a success message: "Club added: <CLUB_NAME>".
@@ -399,7 +399,7 @@ Priorities: High (must have) - `***`, Medium (nice to have / good to have) - `**
 
 **Scope:** The user wants to delete an existing club from the contact book.
 
-**Main Success Scenario (MSS)**
+**MSS**
 
 1.  The user requests to list all clubs using the `list_clubs` command.
 2.  The contact book app displays a list of all existing clubs.
