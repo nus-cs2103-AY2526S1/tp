@@ -52,7 +52,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Seah Min-Ren
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/miinren.png" width="200px">
 
 [[github](http://github.com/miinren)]
 [[portfolio](team/miinren.md)]
