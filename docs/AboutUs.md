@@ -41,9 +41,9 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Responsibilities: Data
 
 ### Liv Tarsilla Poh
-![livtarsillapoh.png](images/livtarsillapoh.png)
+<img src="images/livtarsillapoh.png" width="200px">
 
-[[github](http://github.com/livtarsilapoh)]
+[[github](http://github.com/livtarsillapoh)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
