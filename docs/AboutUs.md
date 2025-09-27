@@ -13,7 +13,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Dylan Teo
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/dylantjy.png" width="200px">
 
 [[github](https://github.com/dylantjy)]
 
