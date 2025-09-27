@@ -1,59 +1,51 @@
 ---
-layout: page
-title: About Us
+  layout: default.md
+  title: "About Us"
 ---
 
-We are a team based in the [School of Computing, National University of Singapore](https://www.comp.nus.edu.sg).
+# About Us
+
+We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
 
 You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Chan Jin Kai
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/moomooyonders.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/MooMooYonders)]
+[[portfolio](team/moomooyonders.md)]
 
 * Role: Project Advisor
+* Responsibilities: Project oversight and guidance
 
-### Jane Doe
+### Justin Ng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/jvvvstin.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/jvvvstin)]
+[[portfolio](team/jvvvstin.md)]
 
 * Role: Team Lead
 * Responsibilities: UI
 
-### Johnny Doe
+### Lum Jing Xiang Isaac
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/zisaac99.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/Zisaac99)] [[portfolio](team/zisaac99.md)]
+
+* Role: Developer
+* Responsibilities: Integration
+
+### Soh Wei Jie Nicholas
+
+<img src="images/nicsohlame.png" width="200px">
+
+[[github](http://github.com/nicsohlame)]
+[[portfolio](team/nicsohlame.md)]
 
 * Role: Developer
 * Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
-
-### James Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: UI
