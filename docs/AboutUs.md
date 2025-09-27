@@ -58,4 +58,4 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/miinren.md)]
 
 * Role: Developer
-* Responsibilities: UI, TBD
+* Responsibilities: UI, TBD, stuff
