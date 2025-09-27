@@ -35,7 +35,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 <img src="images/lzkkuan.png" width="200px">
 
-[[github](http://github.com/lzkkuan)] [[portfolio](team/zekuan.md)]
+[[github](http://github.com/lzkkuan)] [[portfolio](team/lzkkuan.md)]
 
 * Role: Developer
 * Responsibilities: Eat & Sleep
