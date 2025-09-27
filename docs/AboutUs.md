@@ -21,3 +21,21 @@ You can reach us at the email `e1398671@u.nus.edu`
 
 * Responsibility: Model
 
+### Mitchel Lee
+
+<img src="images/actualmulti.png" width="200px">
+
+[[github](http://github.com/actualmulti)]
+
+* Role: Project Management 
+* Responsibilities: Model
+
+### Mattheus Cheong
+
+<img src="images/mattcce.png" width="200px">
+
+[[github](https://github.com/mattcce)]
+
+* Role: DevOps, CI/CD
+* Responsibilities: Parsing
+
