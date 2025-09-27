@@ -262,14 +262,15 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
+* manages multiple clubs
 * has a need to manage a significant number of contacts
 * prefer desktop apps over other types
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
-
+**Value proposition**: 
+manage multiple clubs & clubs' contacts faster than a typical mouse/GUI driven app
 
 ### User stories
 
@@ -317,32 +318,107 @@ Priorities: High (must have) - `***`, Medium (nice to have / good to have) - `**
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `ClubHub` and the **Actor** is the `user`, unless specified otherwise)
 
-**Use case: Delete a person**
+#### **Use case: Delete a contact**
+
+**Scope:** The user wants to remove a contact from the contact book. The `del_contact` command allows deletion by the contact's name.
 
 **MSS**
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+1.  The user requests to list contacts using the `list_contacts` command to find the name of the contact to be deleted.
+2.  The contact book app displays a list of all contacts.
+3.  The user issues the `del_contact NAME` command with the name of an existing contact.
+4.  The contact book app deletes the contact from the system and all associated clubs, displaying a confirmation message: "Contact deleted: <NAME>; Phone: <PHONE_NUMBER>; Email: <EMAIL>".
 
     Use case ends.
 
 **Extensions**
 
-* 2a. The list is empty.
+*   2a. The contact list is empty.
+    *   2a1. The contact book app shows the message: "You do not have any contacts saved."
+        Use case ends.
+*   3a. The contact name provided does not exist in the contact book.
+    *   3a1. The contact book app shows an error message: "Contact not found".
+        Use case resumes at step 1.
+*   3b. The user provides an invalid command format.
+    *   3b1. The contact book app shows an error message: "Invalid command format. Usage: `del_contact NAME`".
+        Use case resumes at step 1.
 
-  Use case ends.
+#### **Use case: Add a new contact**
 
-* 3a. The given index is invalid.
+**Scope:** The user wants to add a new contact to a club in the contact book.
 
-    * 3a1. AddressBook shows an error message.
+**MSS**
 
-      Use case resumes at step 2.
+1.  The user issues the command `add_contact n/NAME p/PHONE_NUMBER e/EMAIL c/CLUB`.
+2.  The contact book app validates the fields and confirms the specified club exists.
+3.  The app creates the new contact, associates it with the specified club, and displays a success message: "Contact added: <NAME>; Phone: <PHONE_NUMBER>; Email: <EMAIL> to <CLUB>".
 
-*{More to be added}*
+    Use case ends.
+
+**Extensions**
+
+*   2a. A contact with the same name, phone number, or email already exists.
+    *   2a1. The contact book app shows a relevant error message, such as "Contact name <NAME> already exists."
+        Use case ends.
+*   2b. One of the provided fields is invalid (e.g., name is too long, phone number has non-digit characters, or email format is incorrect).
+    *   2b1. The contact book app shows the corresponding error message for the invalid parameter (e.g., "Name too long (70 characters)").
+        Use case ends.
+*   2c. The specified club name does not exist.
+    *   2c1. The contact book app creates the new club and then adds the contact to it, showing the success message from MSS step 3.
+        Use case ends.
+*   2d. The user provides an invalid command format.
+    *   2d1. The contact book app shows an error message: "Invalid command format. Usage: `add_contact n/NAME p/PHONE_NUMBER e/EMAIL`".
+        Use case ends.
+
+#### **Use case: Add a new club**
+
+**Scope:** The user wants to create a new club in the contact book.
+
+**MSS**
+
+1.  The user issues the `add_club CLUB_NAME` command with a valid and unique club name.
+2.  The contact book app creates the new club and displays a success message: "Club added: <CLUB_NAME>".
+
+    Use case ends.
+
+**Extensions**
+
+*   2a. The specified club name already exists.
+    *   2a1. The contact book app shows an error message: "Club <NAME> already exists."
+        Use case ends.
+*   2b. The provided club name is invalid (e.g., it is blank or exceeds 70 characters).
+    *   2b1. The contact book app shows the relevant error message (e.g., "Name cannot be blank").
+        Use case ends.
+*   2c. The command format is invalid.
+    *   2c1. The contact book app shows an error message: "Invalid command format. Usage: `add_club CLUB_NAME`".
+        Use case ends.
+
+#### **Use case: Delete a club**
+
+**Scope:** The user wants to delete an existing club from the contact book.
+
+**MSS**
+
+1.  The user requests to list all clubs using the `list_clubs` command.
+2.  The contact book app displays a list of all existing clubs.
+3.  The user issues the `del_club CLUB_NAME` command with the name of a club from the list.
+4.  The contact book app deletes the specified club and shows a success message: "Club deleted: <NAME>".
+
+    Use case ends.
+
+**Extensions**
+
+*   2a. The list of clubs is empty.
+    *   2a1. The contact book app shows an error message: "You do not have any clubs saved."
+        Use case ends.
+*   3a. The specified club name does not exist.
+    *   3a1. The contact book app shows an error message: "Club not found".
+        Use case resumes at step 1.
+*   3b. The command format is invalid.
+    *   3b1. The contact book app shows an error message: "Invalid command format. Usage: `del_club CLUB_NAME`".
+        Use case resumes at step 1.
 
 ### Non-Functional Requirements
 
