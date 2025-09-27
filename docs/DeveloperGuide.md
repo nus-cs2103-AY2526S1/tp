@@ -262,8 +262,8 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
-* who manages multiple clubs
-* who has a need to manage a significant number of contacts
+* manages multiple clubs
+* has a need to manage a significant number of contacts
 * prefer desktop apps over other types
 * can type fast
 * prefers typing to mouse interactions
