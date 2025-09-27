@@ -20,15 +20,17 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: User Testing
 
-### Yati He
 
-<img src="images/yatihe01.png" width="200px">
+### Li Mingyu
 
-[[github](http://github.com/yatihe01)]
-[[portfolio](team/johndoe.md)]
+<img src="images/sophie-lmy.png" width="200px">
+
+[[github](http://github.com/sophie-lmy)]
+[[portfolio](team/sophie-lmy.md)]
 
 * Role: Developer
-* Responsibilities: Documentation checks
+* Responsibilities: Code Quality
+
 
 ### Wayne Tan
 
@@ -42,15 +44,17 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 1. Scheduling and tracking: In charge of assigning and tracking project tasks.
 2. Integration: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.
 
-### Jean Doe
 
-<img src="images/johndoe.png" width="200px">
+### He Yati
 
-[[github](http://github.com/johndoe)]
+<img src="images/yatihe01.png" width="200px">
+
+[[github](http://github.com/yatihe01)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibilities: Documentation checks
+
 
 ### Chee Yoong
 
