@@ -9,15 +9,14 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Glenn Chiang
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/glenn-chiang.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/Glenn-Chiang)]
+[[portfolio](team/glenn-chiang.md)]
 
-* Role: Project Advisor
+* Role: Team Lead
 
 ### Jane Doe
 
@@ -29,14 +28,14 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Team Lead
 * Responsibilities: UI
 
-### Johnny Doe
+### Ernest Seng
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/sengernest.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/sengernest)] [[portfolio](team/sengernest.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: Logic
 
 ### Jean Doe
 
