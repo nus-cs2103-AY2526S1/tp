@@ -274,14 +274,25 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
-* has a need to manage a significant number of contacts
-* prefer desktop apps over other types
-* can type fast
-* prefers typing to mouse interactions
-* is reasonably comfortable using CLI apps
+**Characteristics**:
+* Prefers desktop apps over other types
+* Can type fast and prefers typing to mouse-based interactions
+* Reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+**Behaviours**:
+* Deals with a significant number of contacts everyday
+* Frequently searches, filters and updates client contact information
+* Values efficiency and speed in desktop apps over GUI interactions
+* Needs to stay on top of a packed schedule and cannot afford to forget meetings or follow-ups with clients
+* Needs to efficiently categorise and segment clients for targeted follow-ups e.g. tagging a customer as “priority-client”
 
+**Pain Points**:
+* High workload from organising, editing and sieving through contacts
+* Needs constant reminders for client-related events
+* Struggles to maintain a single source of truth for all client contact information
+
+**Value proposition**:
+As financial advisors deal with multitudinous leads every single day, our desktop application offers value by allowing advisors to efficiently manage large client databases, stay on top of a hectic schedule and streamline follow-ups through reminders and customisable client tagging. We help financial advisors save precious time spent on tedious administrative workload, so they can focus on building client relationships, making informed decisions and growing their business.
 
 ### User stories
 
@@ -352,16 +363,24 @@ Priorities: High (must have) - `1`, Low (unlikely to have) - `4`
 
 ### Non-Functional Requirements
 
-1.  Should work on any _mainstream OS_ as long as it has Java `17` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
-3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-
-*{More to be added}*
+1. Data performance: the system should be able to hold up to 10000 contacts
+2. Cross Compatibility: the system should be cross compatible across different operating systems (Mac, Windows etc.) as long as they have java 17
+3. Performance Requirements: the system should respond within two seconds
+4. Quality requirements: the system should be usable by a novice who has never used a contact management system.
+5. Security: Data should only be accessible by the user of the device of the application
+6. Maintainability: the code base should be modular, and follow a strict OOP structure
+7. Maintainability: there should be clear documentations on the code base
+8. Scalability: the application design should allow for new features without large architectural changes
+9. Data persistence: Contact details should be saved automatically after every modification.
+10. Compliance: the system should comply with the relevant data protection regulations if handling personal information
 
 ### Glossary
-
-* **Mainstream OS**: Windows, Linux, Unix, MacOS
-* **Private contact detail**: A contact detail that is not meant to be shared with others
+* **Client / Contact**: Refers to an individual whose details are stored in the system. Each client/contact record includes attributes such as name, phone number, email, and tags.
+* **Reminder**: A scheduled notification linked to a client or event that alerts the user of upcoming tasks, meetings, or follow-ups.
+* **Command**: A typed instruction entered into the system’s CLI (e.g. add, delete, list) to perform an action.
+* **Validation**: Rules applied to user inputs (e.g., regex checks for email or phone numbers) to ensure data consistency and prevent errors.
+* **Storage / Contact List**: The collection of all stored contact records within the system.
+* **System**: Refers to FAContactsPro, the contact management desktop application being designed.
 
 --------------------------------------------------------------------------------------------------------------------
 
