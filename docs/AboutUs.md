@@ -9,15 +9,16 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Nickson Ho
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/nicksonho.png" width="200px">
 
 [[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/nicksonho)]
+[[portfolio](team/nicksonho.md)]
 
-* Role: Project Advisor
+* Role: Developer
+* Responsibilities: User Testing
 
 ### Li Mingyu
 
@@ -29,14 +30,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Code Quality
 
-### Johnny Doe
+### He Yati
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/yatihe01.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/yatihe01)]
+[[portfolio](team/johndoe.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: Documentation checks
 
 ### Jean Doe
 
@@ -48,12 +50,12 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Chee Yoong
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/cheeden.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/cheeden)]
+[[portfolio](team/cheeden.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Features and UI
