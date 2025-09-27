@@ -17,6 +17,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 [[github](https://github.com/dylantjy)]
 
-*Role: Documentation
+ * Role 1: Documentation -> MarkBind administration; Project site
+ * Role 2: UI 
 
 
